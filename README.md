@@ -1,5 +1,5 @@
 # Galactic-Neighborhood
 
-Work in progress :(
+Work in progress
 
 KSP Forum Thread: http://forum.kerbalspaceprogram.com/threads/128856
