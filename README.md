@@ -1,5 +1,5 @@
 # Galactic-Neighborhood
 
-This is the Development Version
+Work In Progress
 
 KSP Forum Thread: http://forum.kerbalspaceprogram.com/threads/128856
