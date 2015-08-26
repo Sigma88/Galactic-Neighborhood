@@ -1,0 +1,15 @@
+**v.0.0.2**
+
+- Moved into GalacticNeighborhood folder
+- Added KSP-AVC compatibility
+- Now Requires Kopernicus 0.3.1
+- Added particles to Algok B
+- Added compatibility with Asclepius 
+- Added compatibility with BorisSystem
+- Added compatibility with OPM
+- Added compatibility with TransKeptunian
+
+
+**v0.0.1**
+
+First Public Alpha
