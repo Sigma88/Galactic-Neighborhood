@@ -28,21 +28,5 @@
 				color5 = 1.0,0.996,0.506,0.2
 			}
 		}
-		@ScaledVersion
-		{
-			@SolarLightColor
-			{
-				%sunAU = #$../../Properties/radius$
-				!brightnessCurve {}
-				brightnessCurve
-				{
-					key = -0.02 0.4 0 0
-					key = 0.01 0.4 0 0
-					key = 0.1 4 0 0
-					key = 0.2 6 0 0
-					key = 0.3 10 0 0
-				}
-			}
-		}
 	}
 }
