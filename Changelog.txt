@@ -1,4 +1,4 @@
-**v0.1.0**
+**v0.0.4**
 
 - Now Requires Kopernicus 0.4.0
 - Added compatibility with RSS
@@ -10,10 +10,6 @@
 - Automatic generation of BrightnessCurves for all stars
 - Automatic generation of powerCurve for all stars
 - Increased barycenters' radius to 61 meters
-
-
-**v0.0.4**
-
 - Fixed Cloud compatibility for OPM system
 
 
