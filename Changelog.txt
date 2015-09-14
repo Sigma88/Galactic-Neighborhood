@@ -1,3 +1,17 @@
+**v0.1.0**
+
+- Now Requires Kopernicus 0.4.0
+- Added compatibility with RSS
+- Added compatibility with Sylandro's Planet Warehouse
+- Added compatibility with finalizeOrbits
+- Binary systems can now be removed from the GN stars (optional)
+- Rearranged folder structure
+- Preparing to add compatibility with rescale mods.
+- Automatic generation of BrightnessCurves for all stars
+- Automatic generation of powerCurve for all stars
+- Increased barycenters' radius to 61 meters
+
+
 **v0.0.4**
 
 - Fixed Cloud compatibility for OPM system
