@@ -4,8 +4,9 @@
 - Added compatibility with Alternis Kerbol Rekerjiggered
 - Automatic generation of Particles effect for every star
 - First attempt at rescale compatibility, use at own risk
-- Force Kerbin as the starting screen body
+- Force Kerbin to be the starting screen body
 - Fixed small bug in powerCurve generation
+- Fixed corona texture of the stock Sun
 
 
 **v0.0.4**
