@@ -1,6 +1,7 @@
 **v0.0.6**
 
-- No changes yet
+- Fixed compatibility with RSS
+- Fixed a bug of particles effect on stars
 
 
 **v0.0.5**
