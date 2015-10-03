@@ -1,3 +1,8 @@
+**v0.0.7**
+
+- No changes yet
+
+
 **v0.0.6**
 
 - Fixed compatibility with RSS
