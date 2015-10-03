@@ -1,3 +1,9 @@
+**v0.0.6**
+
+- Fixed compatibility with RSS
+- Fixed a bug of particles effect on stars
+
+
 **v0.0.5**
 
 - Added compatibility with Kronkus Planet Pack
