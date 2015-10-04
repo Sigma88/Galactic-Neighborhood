@@ -1,6 +1,6 @@
 **v0.0.7**
 
-- No changes yet
+- Removed StockFix.cfg since it wasn't used
 
 
 **v0.0.6**
