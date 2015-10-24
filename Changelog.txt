@@ -1,5 +1,8 @@
 **v0.0.7**
 
+- Added compatibility with Arkas
+- Added compatibility with New Horizons
+- Added compatibility with Sido's Urania System
 - Removed StockFix.cfg since it wasn't used
 
 
