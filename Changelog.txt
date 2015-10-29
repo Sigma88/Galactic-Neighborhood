@@ -1,6 +1,10 @@
 **v0.0.8**
 
-- No changes yet
+- Added compatibility with Alternis Real Solar System
+- Added compatibility with Kerbol Plus
+- Added compatibility with Rhat's Planet Pack
+- Added compatibility with Uncharted Lands
+
 
 **v0.0.7**
 
