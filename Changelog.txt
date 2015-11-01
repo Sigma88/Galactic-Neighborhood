@@ -1,11 +1,8 @@
 **v0.0.8**
 
-- Added compatibility with Alternis Real Solar System
 - Added compatibility with Jungis Planet Pack
-- Added compatibility with Kerbol Plus
 - Added compatibility with Keridani star system
 - Added compatibility with Rhat's Planet Pack
-- Added compatibility with Uncharted Lands
 
 
 **v0.0.7**
