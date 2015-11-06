@@ -4,6 +4,7 @@
 - Added compatibility with Keridani star system
 - Added compatibility with Rhat's Planet Pack
 - Added compatibility with RSS Planets & Moons expanded
+- Added compatibility with Sigma: PluronKhato
 
 
 **v0.0.7**
