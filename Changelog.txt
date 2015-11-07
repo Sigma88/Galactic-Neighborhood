@@ -2,6 +2,8 @@
 
 - Added compatibility with Jungis Planet Pack
 - Added compatibility with Keridani star system
+- Added compatibility with Kerbol Plus
+- Added compatibility with Kerbol Plus Remade
 - Added compatibility with Rhat's Planet Pack
 - Added compatibility with RSS Planets & Moons expanded
 - Added compatibility with Sigma: PluronKhato
