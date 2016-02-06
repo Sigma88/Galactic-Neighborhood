@@ -18,8 +18,8 @@
 				sizeMax = #$sizeMin$
 				@sizeMax *= 3
 				speedScale = 0
-				rate = -0.1
-				randVelocity = 500, 700, 400
+				rate = 0.005
+				randVelocity = 1,1,1
 				Colors
 				{
 					tempColor = #$../../../Orbit/color$
