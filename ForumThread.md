@@ -2,50 +2,36 @@
 #####Loading Multiple Planet Packs in the Same Game
 
 ##Required Mods
-- ModuleManager
-- Kopernicus
+- [ModuleManager](http://forum.kerbalspaceprogram.com/index.php/topic/50533-/)
+- [Kopernicus](http://forum.kerbalspaceprogram.com/index.php/topic/103277-/)
 
 ##Supported Mods
-- KSP-AVC
+- [KSP-AVC](http://forum.kerbalspaceprogram.com/index.php/topic/72169-/)
 
 ##Supported Planet Packs
 
-Alternis Kerbol Rekerjiggered will load in orbit around a G2V star named Alternis.
+| Planet Pack | Star Name | Real Life Counterpart | Spectral Type |
+|-------------|-----------|-----------------------|:-------------:|
+|[Alternis Kerbol Rekerjiggered](http://forum.kerbalspaceprogram.com/index.php/topic/120246-/)|Alternis|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Arkas](http://forum.kerbalspaceprogram.com/index.php/topic/121139-/)|Osmis|[Pi<sup>3</sup> Orionis](https://en.wikipedia.org/wiki/Pi3_Orionis)|F6 V|
+|[Asclepius](http://forum.kerbalspaceprogram.com/index.php/topic/113949-/) <sub><sup>(shared with Kronkus)</sup></sub>|Tyfon|||
+|[Boris System](http://forum.kerbalspaceprogram.com/index.php/topic/63556-/)|Blotch|[Gliese 581](https://en.wikipedia.org/wiki/Gliese_581)|M3V|
+|[Chani Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/116250-/)|Lapiun|||
+|[Jungis Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/123992-/)|Eol|[Altair](https://en.wikipedia.org/wiki/Altair)|A7 V|
+|[Kerbol Plus Remade](http://forum.kerbalspaceprogram.com/index.php/topic/124505-/)|Kerbol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Kronkus](http://forum.kerbalspaceprogram.com/index.php/topic/119202-/) <sub><sup>(shared with Asclepius)</sup></sub>|Tyfon
+|[New Horizons]()|Horizon|[Mu Columbae](https://en.wikipedia.org/wiki/Mu_Columbae)|O9.5 V
+|[Outer Planets Mod]()|Helios|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[PluronKhato]()|Umbra, Lux <sub><sup>(binary)</sup></sub>|[Eta Ursae Majoris](https://en.wikipedia.org/wiki/Eta_Ursae_Majoris), [Tau Ceti](https://en.wikipedia.org/wiki/Tau_Ceti)|G8 V, B5 V|
+|[Real Solar System]()<br><sub><sup>(shrinked versions)</sup></sub><br>[RSSExpansion]()|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Rhats's Planet Pack]()|Hyperdon|[Sirius B](https://en.wikipedia.org/wiki/Sirius#Sirius_B)|A2 D|
+|[Sentar Expansion]()|Sloof|||
+|[Sido's Urania Planet Pack]()|Sido|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Sylandro's Planet Warehouse]()|Daneel|||
+|[Trans-Keptunian]()|Plide|||
 
-Arkas will load in orbit around an F6V star named Osmis.
+##Supported Star Systems
 
-**Asclepius will load in orbit around a blue sub-giant named Tyfon. (shared with Kronkus)**
+- [OtherWorlds]()
 
-Boris System will load in orbit around an M3V star named Blotch.
-
-**Chani Planet Pack will load in orbit around a blue-white main sequence star named Lapiun.**
-
-Jungis Planet pack will load in orbit around an A7V star named Eol.
-
-Kerbol Plus Remade will load in orbit around a G2V star named Kerbol.
-
-Keridani star system will load in orbit around the Galactic Core to fit with the other star systems.
-
-**Kronkus will load in orbit around a blue sub-giant named Tyfon. (shared with Asclepius)**
-
-New Horizons will load in orbit around an O9.5V star named Horizon.
-
-OtherWorlds star system will load in orbit around the Galactic Core to fit with the other star systems.
-
-Outer Planets Mod will load in orbit around a G2V star named Helios.
-
-PluronKhato will load in orbit around a G8V star named Lux that orbits a B5V star named Umbra.
-
-Real Solar System (a shrinked version) will load in orbit around a G2V star named Sol.
-
-**Rhats's Planet pack will load in orbit around a DA2 star named Hyperdon.**
-
-RSSExpansion (a shrinked version) will load around the same star as Real Solar System.
-
-Sentar Expansion will load in orbit around a red giant named Sloof.
-
-Sido's Urania Planet Pack will load in orbit around a Sun-like yellow main sequence star named Sido.
-
-Sylandro's Planet Warehouse will load in orbit around an orange main sequence star named Daneel.
-
-Trans-Keptunian will load in orbit around a brown dwarf named Plide.
+- [Keridani star system](http://forum.kerbalspaceprogram.com/index.php/topic/123197-/)
