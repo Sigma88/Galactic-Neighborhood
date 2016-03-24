@@ -27,11 +27,22 @@
 |[Rhats's Planet Pack]()|Hyperdon|[Sirius B](https://en.wikipedia.org/wiki/Sirius#Sirius_B)|A2 D|
 |[Sentar Expansion]()|Sloof|||
 |[Sido's Urania Planet Pack]()|Sido|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Stock-alike Solar System]()|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 |[Sylandro's Planet Warehouse]()|Daneel|||
-|[Trans-Keptunian]()|Plide|||
+|[Trans-Keptunian]()|Plide||||
+|[Uncharted Lands]()|Snu|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 
 ##Supported Star Systems
 
 - [OtherWorlds]()
-
 - [Keridani star system](http://forum.kerbalspaceprogram.com/index.php/topic/123197-/)
+
+##Downloads
+
+##Changelog
+
+##Star Systems Overview
+
+|System Name|Real Life Analogue|Description|Images|
+|----|----|----|----|
+|Galactic Core|[None](https://www.youtube.com/watch?v=0LgcDpTH47g)|This is the center of the Galaxy, all the stars orbit around this point in space. However, all the star systems will be added in the same region of space, making it pointless to venture out to the Galactic Core.||
