@@ -20,21 +20,21 @@
 |[Jungis Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/123992-/)|Eol|[Altair](https://en.wikipedia.org/wiki/Altair)|A7 V|
 |[Kerbol Plus Remade](http://forum.kerbalspaceprogram.com/index.php/topic/124505-/)|Kerbol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 |[Kronkus](http://forum.kerbalspaceprogram.com/index.php/topic/119202-/) <sub><sup>(shared with Asclepius)</sup></sub>|Tyfon
-|[New Horizons]()|Horizon|[Mu Columbae](https://en.wikipedia.org/wiki/Mu_Columbae)|O9.5 V
-|[Outer Planets Mod]()|Helios|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[PluronKhato]()|Umbra, Lux <sub><sup>(binary)</sup></sub>|[Eta Ursae Majoris](https://en.wikipedia.org/wiki/Eta_Ursae_Majoris), [Tau Ceti](https://en.wikipedia.org/wiki/Tau_Ceti)|G8 V, B5 V|
-|[Real Solar System]()<br><sub><sup>(shrinked versions)</sup></sub><br>[RSSExpansion]()|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[Rhats's Planet Pack]()|Hyperdon|[Sirius B](https://en.wikipedia.org/wiki/Sirius#Sirius_B)|A2 D|
-|[Sentar Expansion]()|Sloof|||
-|[Sido's Urania Planet Pack]()|Sido|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[Stock-alike Solar System]()|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[Sylandro's Planet Warehouse]()|Daneel|||
-|[Trans-Keptunian]()|Plide||||
-|[Uncharted Lands]()|Snu|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[New Horizons](http://forum.kerbalspaceprogram.com/index.php/topic/102776-/)|Horizon|[Mu Columbae](https://en.wikipedia.org/wiki/Mu_Columbae)|O9.5 V
+|[Outer Planets Mod](http://forum.kerbalspaceprogram.com/index.php?/topic/93999-/)|Helios|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[PluronKhato](http://forum.kerbalspaceprogram.com/index.php?/topic/122296-/)|Umbra, Lux <sub><sup>(binary)</sup></sub>|[Eta Ursae Majoris](https://en.wikipedia.org/wiki/Eta_Ursae_Majoris), [Tau Ceti](https://en.wikipedia.org/wiki/Tau_Ceti)|G8 V, B5 V|
+|[Real Solar System](http://forum.kerbalspaceprogram.com/index.php?/topic/50471-/)<br><sub><sup>(shrinked versions)</sup></sub><br>[RSSExpansion](http://forum.kerbalspaceprogram.com/index.php?/topic/116275-/)|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Rhats's Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/118902-/)|Hyperdon|[Sirius B](https://en.wikipedia.org/wiki/Sirius#Sirius_B)|A2 D|
+|[Sentar Expansion](http://forum.kerbalspaceprogram.com/index.php?/topic/117355-/)|Sloof|||
+|[Sido's Urania Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/60733-/)|Sido|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Stock-alike Solar System](http://forum.kerbalspaceprogram.com/index.php?/topic/131405-/) <sub><sup>(The small version)</sup></sub>|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Sylandro's Planet Warehouse](http://forum.kerbalspaceprogram.com/index.php?/topic/119275-/)|Daneel|||
+|[Trans-Keptunian](http://forum.kerbalspaceprogram.com/index.php?/topic/98346-/)|Plide||||
+|[Uncharted Lands](http://forum.kerbalspaceprogram.com/index.php?/topic/120111-/)|Snu|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 
 ## Supported Star Systems
 
-- [OtherWorlds]()
+- [OtherWorlds](http://forum.kerbalspaceprogram.com/index.php/topic/115917-/)
 - [Keridani star system](http://forum.kerbalspaceprogram.com/index.php/topic/123197-/)
 
 ## Downloads
