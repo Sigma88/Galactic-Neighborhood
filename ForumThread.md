@@ -14,13 +14,13 @@
 |-------------|-----------|-----------------------|:-------------:|
 |[Alternis Kerbol Rekerjiggered](http://forum.kerbalspaceprogram.com/index.php/topic/120246-/)|Alternis|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 |[Arkas](http://forum.kerbalspaceprogram.com/index.php/topic/121139-/)|Osmis|[Pi<sup>3</sup> Orionis](https://en.wikipedia.org/wiki/Pi3_Orionis)|F6 V|
-|[Asclepius](http://forum.kerbalspaceprogram.com/index.php/topic/113949-/) <sub><sup>(shared with Kronkus)</sup></sub>|Tyfon|||
-|[Boris System](http://forum.kerbalspaceprogram.com/index.php/topic/63556-/)|Blotch|[Gliese 581](https://en.wikipedia.org/wiki/Gliese_581)|M3V|
+|[Asclepius](http://forum.kerbalspaceprogram.com/index.php/topic/113949-/) <sub><sup>(shared with Kronkus)</sup></sub>|Tyfon|[δ Cir A](https://en.wikipedia.org/wiki/Delta_Circini)|O8 IV|
+|[Boris System](http://forum.kerbalspaceprogram.com/index.php/topic/63556-/)|Blotch|[Gliese 581](https://en.wikipedia.org/wiki/Gliese_581)|M3 V|
 |[Chani Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/116250-/)|Lapiun|[α Leo A](https://en.wikipedia.org/wiki/Regulus#System)|B7 V|
 |[Jungis Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/123992-/)|Eol|[Altair](https://en.wikipedia.org/wiki/Altair)|A7 V|
 |[Kerbol Plus Remade](http://forum.kerbalspaceprogram.com/index.php/topic/124505-/)|Kerbol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[Kronkus](http://forum.kerbalspaceprogram.com/index.php/topic/119202-/) <sub><sup>(shared with Asclepius)</sup></sub>|Tyfon
-|[New Horizons](http://forum.kerbalspaceprogram.com/index.php/topic/102776-/)|Horizon|[Mu Columbae](https://en.wikipedia.org/wiki/Mu_Columbae)|O9.5 V
+|[Kronkus](http://forum.kerbalspaceprogram.com/index.php/topic/119202-/) <sub><sup>(shared with Asclepius)</sup></sub>|Tyfon|[δ Cir A](https://en.wikipedia.org/wiki/Delta_Circini)|O8 IV|
+|[New Horizons](http://forum.kerbalspaceprogram.com/index.php/topic/102776-/)|Horizon|[Mu Columbae](https://en.wikipedia.org/wiki/Mu_Columbae)|O9.5 V|
 |[Outer Planets Mod](http://forum.kerbalspaceprogram.com/index.php?/topic/93999-/)|Helios|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 |[PluronKhato](http://forum.kerbalspaceprogram.com/index.php?/topic/122296-/)|Umbra, Lux <sub><sup>(binary)</sup></sub>|[Eta Ursae Majoris](https://en.wikipedia.org/wiki/Eta_Ursae_Majoris), [Tau Ceti](https://en.wikipedia.org/wiki/Tau_Ceti)|G8 V, B5 V|
 |[Real Solar System](http://forum.kerbalspaceprogram.com/index.php?/topic/50471-/)<br><sub><sup>(shrinked versions)</sup></sub><br>[RSSExpansion](http://forum.kerbalspaceprogram.com/index.php?/topic/116275-/)|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
