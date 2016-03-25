@@ -43,14 +43,41 @@
 
 ## Star Systems Overview
 
-|System Name|Real Life Analogue|Description|Images|
-|----|----|----|----|
-|Galactic Core|[None](https://www.youtube.com/watch?v=0LgcDpTH47g)|This is the center of the Galaxy, all the stars orbit around this point in space. However, all the star systems will be added in the same region of space, making it pointless to venture out to the Galactic Core.||
-|Sun|[Sol](https://en.wikipedia.org/wiki/Sun)|This is the Stock KSP system, your game will start from here. No changes were made to the system, other than moving it to orbit the Galactic Core.||
-|Prok-Kseema|[Alpha Centauri](https://en.wikipedia.org/wiki/Alpha_Centauri)|This is the closest star system to the Sun. It's a binary system of two stars. **Prok**, which is a Sun-like main-sequence yellow star, and **Kseema** a main-sequence orange star slightly smaller and less luminous than the Sun.||
-|Kpol|[α UMi Aa](https://en.wikipedia.org/wiki/Polaris#Star_system)|This star is very close to Kerbin's south celestial pole, making it the south pole star. Kpol is a Yellow Supergiant 4.5 times more massive and 40 times larger than the Sun.||
-|K-stor|[Castor]()|In this system **six stars** can be found orbiting in a complex configuration.<br>The stars are divided in **three binary** pairs:<br>**1. K-Stor A** which includes **K-Stor Aa** (a main sequence blue-white star) and **K-Stor Ab** (a main sequence red dwarf)<br>**2. K-Stor B** which includes **K-Stor Ba** (a main sequence blue-white star) and **K-Stor Bb** (a main sequence red dwarf)<br>**3. K-Stor C** which includes **K-Stor Ca** and **K-Stor Bb** (two main sequence red dwarf)<br>**K-Stor A** and **K-Stor B** orbit each other, the four star together are called **K-Stor AB**. **K-Stor C** orbits **K-Stor AB** at a greater distance.||
-|M-Kel|[None found yet]()|This is a **triple system** of three white dwarfs all orbiting the same barycenter in a figure 8 orbit. **M-Kel A**, **M-Kel B** and **M-Kel C** are stars with the same mass as the Sun but the same radius as Kerbin.||
+#### Galactic Core
+
+This is the center of the Galaxy, all the stars orbit around this point in space. However, all the star systems will be added in the same region of space, making it pointless to venture out to the Galactic Core.
+
+##### Real Life Analogue: [None](https://www.youtube.com/watch?v=0LgcDpTH47g)
+
+#### Sun
+
+This is the Stock KSP system, your game will start from here. No changes were made to the system, other than moving it to orbit the Galactic Core.
+
+##### Real Life Analogue: [Sol](https://en.wikipedia.org/wiki/Sun)
+
+#### Prok-Kseema
+
+This is the closest star system to the Sun. It's a binary system of two stars. **Prok**, which is a Sun-like main-sequence yellow star, and **Kseema** a main-sequence orange star slightly smaller and less luminous than the Sun.||
+
+##### Real Life Analogue: [Alpha Centauri](https://en.wikipedia.org/wiki/Alpha_Centauri)
+
+#### Kpol
+
+This star is very close to Kerbin's south celestial pole, making it the **south pole star**. Kpol is a **Yellow Supergiant** 4.5 times more massive and **40 times larger than the Sun**.
+
+##### Real Life Analogue: [α UMi Aa](https://en.wikipedia.org/wiki/Polaris#Star_system)
+
+#### K-stor
+
+In this system **six stars** can be found orbiting in a complex configuration.<br>The stars are divided in **three binary** pairs: **K-Stor A**, **K-Stor B** and **K-Stor C**<br>**K-Stor A** and **K-Stor B** orbit each other while **K-Stor C** orbits them at a greater distance.
+
+##### Real Life Analogue: [Castor](https://en.wikipedia.org/wiki/Castor_(star))
+
+#### M-Kel
+
+This is a **triple system** of three white dwarfs all orbiting the same barycenter in a figure 8 orbit. **M-Kel A**, **M-Kel B** and **M-Kel C** are stars with the same mass as the Sun but the same radius as Kerbin.
+
+##### Real Life Analogue: [None found yet](http://tuvalu.santafe.edu/~moore/braids-prl.pdf)
 
 ## Developers
 
