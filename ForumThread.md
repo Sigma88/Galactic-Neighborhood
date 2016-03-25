@@ -1,14 +1,14 @@
-#*Galactic Neighborhood*
+# *Galactic Neighborhood*
 #####Loading Multiple Planet Packs in the Same Game
 
-##Required Mods
+## Required Mods
 - [ModuleManager](http://forum.kerbalspaceprogram.com/index.php/topic/50533-/)
 - [Kopernicus](http://forum.kerbalspaceprogram.com/index.php/topic/103277-/)
 
-##Supported Mods
+## Supported Mods
 - [KSP-AVC](http://forum.kerbalspaceprogram.com/index.php/topic/72169-/)
 
-##Supported Planet Packs
+## Supported Planet Packs
 
 | Planet Pack | Star Name | Real Life Counterpart | Spectral Type |
 |-------------|-----------|-----------------------|:-------------:|
@@ -32,16 +32,16 @@
 |[Trans-Keptunian]()|Plide||||
 |[Uncharted Lands]()|Snu|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 
-##Supported Star Systems
+## Supported Star Systems
 
 - [OtherWorlds]()
 - [Keridani star system](http://forum.kerbalspaceprogram.com/index.php/topic/123197-/)
 
-##Downloads
+## Downloads
 
-##Changelog
+## Changelog
 
-##Star Systems Overview
+## Star Systems Overview
 
 |System Name|Real Life Analogue|Description|Images|
 |----|----|----|----|
@@ -51,3 +51,12 @@
 |Kpol|[α UMi Aa](https://en.wikipedia.org/wiki/Polaris#Star_system)|This star is very close to Kerbin's south celestial pole, making it the south pole star. Kpol is a Yellow Supergiant 4.5 times more massive and 40 times larger than the Sun.||
 |K-stor|[Castor]()|In this system **six stars** can be found orbiting in a complex configuration.<br>The stars are divided in **three binary** pairs:<br>**1. K-Stor A** which includes **K-Stor Aa** (a main sequence blue-white star) and **K-Stor Ab** (a main sequence red dwarf)<br>**2. K-Stor B** which includes **K-Stor Ba** (a main sequence blue-white star) and **K-Stor Bb** (a main sequence red dwarf)<br>**3. K-Stor C** which includes **K-Stor Ca** and **K-Stor Bb** (two main sequence red dwarf)<br>**K-Stor A** and **K-Stor B** orbit each other, the four star together are called **K-Stor AB**. **K-Stor C** orbits **K-Stor AB** at a greater distance.||
 |M-Kel|[None found yet]()|This is a **triple system** of three white dwarfs all orbiting the same barycenter in a figure 8 orbit. **M-Kel A**, **M-Kel B** and **M-Kel C** are stars with the same mass as the Sun but the same radius as Kerbin.||
+
+## Developers
+
+- Sigma88
+- KillAshley (star models)
+
+## Credits
+
+## License
