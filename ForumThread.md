@@ -46,3 +46,5 @@
 |System Name|Real Life Analogue|Description|Images|
 |----|----|----|----|
 |Galactic Core|[None](https://www.youtube.com/watch?v=0LgcDpTH47g)|This is the center of the Galaxy, all the stars orbit around this point in space. However, all the star systems will be added in the same region of space, making it pointless to venture out to the Galactic Core.||
+|Sun|Sol|This is the Stock KSP system, your game will start from here. No changes were made to the system, other than moving it to orbit the Galactic Core.||
+|Prok-Kseema|Alpha Centauri|This is the closest star system to the Sun. It's a binary system of two stars.<br>Prok, which is a Sun-like main-sequence yellow star, and Kseema a main-sequence orange star slightly smaller and less luminous than the Sun.||
