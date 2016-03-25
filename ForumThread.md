@@ -81,9 +81,16 @@ This is a **triple system** of three white dwarfs all orbiting the same barycent
 
 ## Developers
 
-- Sigma88
-- KillAshley (star models)
+- **Sigma88**
+- **KillAshley** (star models)
 
 ## Credits
+
+- **Sarbian & Co.** for [ModuleManager](http://forum.kerbalspaceprogram.com/index.php/topic/50533-/)
+- **Thomas P.** & Co. for [Kopernicus](http://forum.kerbalspaceprogram.com/index.php/topic/103277-/)
+- **cybutek** for [KSP-AVC](http://forum.kerbalspaceprogram.com/index.php/topic/72169-/)
+- **shaw** for [Texture Replacer](http://forum.kerbalspaceprogram.com/index.php/topic/96851-/)
+- **Olympic1** for his help troubleshooting/proofreading some of the code
+- **Tynrael** for TR tips
 
 ## License
