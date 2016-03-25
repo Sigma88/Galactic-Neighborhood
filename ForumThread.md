@@ -21,16 +21,17 @@
 |[Kerbol Plus Remade](http://forum.kerbalspaceprogram.com/index.php/topic/124505-/)|Kerbol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 |[Kronkus](http://forum.kerbalspaceprogram.com/index.php/topic/119202-/) <sub><sup>(shared with Asclepius)</sup></sub>|Tyfon|[δ Cir A](https://en.wikipedia.org/wiki/Delta_Circini)|O8 IV|
 |[New Horizons](http://forum.kerbalspaceprogram.com/index.php/topic/102776-/)|Horizon|[Mu Columbae](https://en.wikipedia.org/wiki/Mu_Columbae)|O9.5 V|
-|[Outer Planets Mod](http://forum.kerbalspaceprogram.com/index.php?/topic/93999-/)|Helios|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[PluronKhato](http://forum.kerbalspaceprogram.com/index.php?/topic/122296-/)|Umbra, Lux <sub><sup>(binary)</sup></sub>|[Eta Ursae Majoris](https://en.wikipedia.org/wiki/Eta_Ursae_Majoris), [Tau Ceti](https://en.wikipedia.org/wiki/Tau_Ceti)|G8 V, B5 V|
-|[Real Solar System](http://forum.kerbalspaceprogram.com/index.php?/topic/50471-/)<br><sub><sup>(shrinked versions)</sup></sub><br>[RSSExpansion](http://forum.kerbalspaceprogram.com/index.php?/topic/116275-/)|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[Rhats's Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/118902-/)|Hyperdon|[Sirius B](https://en.wikipedia.org/wiki/Sirius#Sirius_B)|A2 D|
-|[Sentar Expansion](http://forum.kerbalspaceprogram.com/index.php?/topic/117355-/)|Sloof|[Arcturus](https://en.wikipedia.org/wiki/Arcturus)|K0 III|
-|[Sido's Urania Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/60733-/)|Sido|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[Stock-alike Solar System](http://forum.kerbalspaceprogram.com/index.php?/topic/131405-/) <sub><sup>(The small version)</sup></sub>|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[Sylandro's Planet Warehouse](http://forum.kerbalspaceprogram.com/index.php?/topic/119275-/)|Daneel|[Epsilon Eridani](https://en.wikipedia.org/wiki/Epsilon_Eridani)|K2 V|
-|[Trans-Keptunian](http://forum.kerbalspaceprogram.com/index.php?/topic/98346-/)|Plide|[Teide 1](https://en.wikipedia.org/wiki/Teide_1)|M8|
-|[Uncharted Lands](http://forum.kerbalspaceprogram.com/index.php?/topic/120111-/)|Snu|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Outer Planets Mod](http://forum.kerbalspaceprogram.com/index.php/topic/93999-/)|Helios|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[PluronKhato](http://forum.kerbalspaceprogram.com/index.php/topic/122296-/)|Umbra, Lux <sub><sup>(binary)</sup></sub>|[Eta Ursae Majoris](https://en.wikipedia.org/wiki/Eta_Ursae_Majoris), [Tau Ceti](https://en.wikipedia.org/wiki/Tau_Ceti)|G8 V, B5 V|
+|[Real Solar System](http://forum.kerbalspaceprogram.com/index.php/topic/50471-/)<br><sub><sup>(shrinked versions)</sup></sub><br>[RSSExpansion](http://forum.kerbalspaceprogram.com/index.php/topic/116275-/)|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Rhats's Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/118902-/)|Hyperdon|[Sirius B](https://en.wikipedia.org/wiki/Sirius#Sirius_B)|A2 D|
+|[Saru Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/119263-/)|Paribo|[Fomalhaut](https://en.wikipedia.org/wiki/Fomalhaut)|A3 V|
+|[Sentar Expansion](http://forum.kerbalspaceprogram.com/index.php/topic/117355-/)|Sloof|[Arcturus](https://en.wikipedia.org/wiki/Arcturus)|K0 III|
+|[Sido's Urania Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/60733-/)|Sido|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Stock-alike Solar System](http://forum.kerbalspaceprogram.com/index.php/topic/131405-/) <sub><sup>(The small version)</sup></sub>|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Sylandro's Planet Warehouse](http://forum.kerbalspaceprogram.com/index.php/topic/119275-/)|Daneel|[Epsilon Eridani](https://en.wikipedia.org/wiki/Epsilon_Eridani)|K2 V|
+|[Trans-Keptunian](http://forum.kerbalspaceprogram.com/index.php/topic/98346-/)|Plide|[Teide 1](https://en.wikipedia.org/wiki/Teide_1)|M8|
+|[Uncharted Lands](http://forum.kerbalspaceprogram.com/index.php/topic/120111-/)|Snu|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 
 ## Supported Star Systems
 
