@@ -57,7 +57,7 @@ This is the Stock KSP system, your game will start from here. No changes were ma
 
 #### Prok-Kseema
 
-This is the closest star system to the Sun. It's a binary system of two stars. **Prok**, which is a Sun-like main-sequence yellow star, and **Kseema** a main-sequence orange star slightly smaller and less luminous than the Sun.||
+This is the closest star system to the Sun. It's a binary system of two stars. **Prok**, which is a Sun-like main-sequence yellow star, and **Kseema** a main-sequence orange star slightly smaller and less luminous than the Sun.
 
 ##### Real Life Analogue: [Alpha Centauri](https://en.wikipedia.org/wiki/Alpha_Centauri)
 
