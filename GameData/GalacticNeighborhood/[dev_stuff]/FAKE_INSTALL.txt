@@ -116,3 +116,23 @@
 		}
 	}
 }
+@Kopernicus:FOR[Jungis]
+{
+// installed
+}
+@Kopernicus:FOR[KPlus]
+{
+// installed
+}
+@Kopernicus:FOR[PlanetPack_Farlo]
+{
+// installed
+}
+@Kopernicus:FOR[SaruPack]
+{
+// installed
+}
+@Kopernicus:FOR[SigmaPK]
+{
+// installed
+}
