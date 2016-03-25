@@ -76,6 +76,12 @@ In this system **six stars** can be found orbiting in a complex configuration.<b
 
 ##### Real Life Analogue: [Castor](https://en.wikipedia.org/wiki/Castor_(star))
 
+#### Algok
+
+This is not an ordinary binary system, the more massive component **Algok A** is still in the main sequence, while the less massive **Algol B** is a subgiant star at a later evolutionary stage. Since components of a binary star form at the same time something weird must be going on here.
+
+##### Real Life Analogue: [Algol](https://en.wikipedia.org/wiki/Algol)
+
 #### M-Kel
 
 This is a **triple system** of three white dwarfs all orbiting the same barycenter in a figure 8 orbit. **M-Kel A**, **M-Kel B** and **M-Kel C** are stars with the same mass as the Sun but the same radius as Kerbin.
