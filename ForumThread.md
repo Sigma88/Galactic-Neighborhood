@@ -2,41 +2,42 @@
 #####Loading Multiple Planet Packs in the Same Game
 
 ## Required Mods
-- [ModuleManager](http://forum.kerbalspaceprogram.com/index.php/topic/50533-/)
-- [Kopernicus](http://forum.kerbalspaceprogram.com/index.php/topic/103277-/)
+- [ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50533-/)
+- [Kopernicus](http://forum.kerbalspaceprogram.com/index.php?/topic/103277-/)
 
 ## Supported Mods
-- [KSP-AVC](http://forum.kerbalspaceprogram.com/index.php/topic/72169-/)
+- [KSP-AVC](http://forum.kerbalspaceprogram.com/index.php?/topic/72169-/)
 
 ## Supported Planet Packs
 
 | Planet Pack | Star Name | Real Life Counterpart | Spectral Type |
 |-------------|-----------|-----------------------|:-------------:|
-|[Alternis Kerbol Rekerjiggered](http://forum.kerbalspaceprogram.com/index.php/topic/120246-/)|Alternis|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[Arkas](http://forum.kerbalspaceprogram.com/index.php/topic/121139-/)|Osmis|[Pi<sup>3</sup> Orionis](https://en.wikipedia.org/wiki/Pi3_Orionis)|F6 V|
-|[Asclepius](http://forum.kerbalspaceprogram.com/index.php/topic/113949-/) <sub><sup>(shared with Kronkus)</sup></sub>|Tyfon|[δ Cir A](https://en.wikipedia.org/wiki/Delta_Circini)|O8 IV|
-|[Boris System](http://forum.kerbalspaceprogram.com/index.php/topic/63556-/)|Blotch|[Gliese 581](https://en.wikipedia.org/wiki/Gliese_581)|M3 V|
-|[Chani Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/116250-/)|Lapiun|[α Leo A](https://en.wikipedia.org/wiki/Regulus#System)|B7 V|
-|[Jungis Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/123992-/)|Eol|[Altair](https://en.wikipedia.org/wiki/Altair)|A7 V|
-|[Kerbol Plus Remade](http://forum.kerbalspaceprogram.com/index.php/topic/124505-/)|Kerbol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[Kronkus](http://forum.kerbalspaceprogram.com/index.php/topic/119202-/) <sub><sup>(shared with Asclepius)</sup></sub>|Tyfon|[δ Cir A](https://en.wikipedia.org/wiki/Delta_Circini)|O8 IV|
-|[New Horizons](http://forum.kerbalspaceprogram.com/index.php/topic/102776-/)|Horizon|[Mu Columbae](https://en.wikipedia.org/wiki/Mu_Columbae)|O9.5 V|
-|[Outer Planets Mod](http://forum.kerbalspaceprogram.com/index.php/topic/93999-/)|Helios|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[PluronKhato](http://forum.kerbalspaceprogram.com/index.php/topic/122296-/)|Umbra, Lux <sub><sup>(binary)</sup></sub>|[Eta Ursae Majoris](https://en.wikipedia.org/wiki/Eta_Ursae_Majoris), [Tau Ceti](https://en.wikipedia.org/wiki/Tau_Ceti)|G8 V, B5 V|
-|[Real Solar System](http://forum.kerbalspaceprogram.com/index.php/topic/50471-/)<br><sub><sup>(shrinked versions)</sup></sub><br>[RSSExpansion](http://forum.kerbalspaceprogram.com/index.php/topic/116275-/)|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[Rhats's Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/118902-/)|Hyperdon|[Sirius B](https://en.wikipedia.org/wiki/Sirius#Sirius_B)|A2 D|
-|[Saru Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/119263-/)|Paribo|[Fomalhaut](https://en.wikipedia.org/wiki/Fomalhaut)|A3 V|
-|[Sentar Expansion](http://forum.kerbalspaceprogram.com/index.php/topic/117355-/)|Sloof|[Arcturus](https://en.wikipedia.org/wiki/Arcturus)|K0 III|
-|[Sido's Urania Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/60733-/)|Sido|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[Stock-alike Solar System](http://forum.kerbalspaceprogram.com/index.php/topic/131405-/) <sub><sup>(The small version)</sup></sub>|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[Sylandro's Planet Warehouse](http://forum.kerbalspaceprogram.com/index.php/topic/119275-/)|Daneel|[Epsilon Eridani](https://en.wikipedia.org/wiki/Epsilon_Eridani)|K2 V|
-|[Trans-Keptunian](http://forum.kerbalspaceprogram.com/index.php/topic/98346-/)|Plide|[Teide 1](https://en.wikipedia.org/wiki/Teide_1)|M8|
-|[Uncharted Lands](http://forum.kerbalspaceprogram.com/index.php/topic/120111-/)|Snu|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Alternis Kerbol Rekerjiggered](http://forum.kerbalspaceprogram.com/index.php?/topic/120246-/)|Alternis|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Arkas](http://forum.kerbalspaceprogram.com/index.php?/topic/121139-/)|Osmis|[Pi<sup>3</sup> Orionis](https://en.wikipedia.org/wiki/Pi3_Orionis)|F6 V|
+|[Asclepius](http://forum.kerbalspaceprogram.com/index.php?/topic/113949-/) <sub><sup>(shared with Kronkus)</sup></sub>|Tyfon|[δ Cir A](https://en.wikipedia.org/wiki/Delta_Circini)|O8 IV|
+|[Boris System](http://forum.kerbalspaceprogram.com/index.php?/topic/63556-/)|Blotch|[Gliese 581](https://en.wikipedia.org/wiki/Gliese_581)|M3 V|
+|[Chani Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/116250-/)|Lapiun|[α Leo A](https://en.wikipedia.org/wiki/Regulus#System)|B7 V|
+|[Farlo Planetary Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/127654-/)|Lasna|[HD 98649](https://en.wikipedia.org/wiki/HD_98649)|G4 V|
+|[Jungis Planet Pack](http://forum.kerbalspaceprogram.com/index.php??/topic/123992-/)|Eol|[Altair](https://en.wikipedia.org/wiki/Altair)|A7 V|
+|[Kerbol Plus Remade](http://forum.kerbalspaceprogram.com/index.php?/topic/124505-/)|Kerbol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Kronkus](http://forum.kerbalspaceprogram.com/index.php?/topic/119202-/) <sub><sup>(shared with Asclepius)</sup></sub>|Tyfon|[δ Cir A](https://en.wikipedia.org/wiki/Delta_Circini)|O8 IV|
+|[New Horizons](http://forum.kerbalspaceprogram.com/index.php?/topic/102776-/)|Horizon|[Mu Columbae](https://en.wikipedia.org/wiki/Mu_Columbae)|O9.5 V|
+|[Outer Planets Mod](http://forum.kerbalspaceprogram.com/index.php?/topic/93999-/)|Helios|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[PluronKhato](http://forum.kerbalspaceprogram.com/index.php?/topic/122296-/)|Umbra, Lux <sub><sup>(binary)</sup></sub>|[Eta Ursae Majoris](https://en.wikipedia.org/wiki/Eta_Ursae_Majoris), [Tau Ceti](https://en.wikipedia.org/wiki/Tau_Ceti)|G8 V, B5 V|
+|[Real Solar System](http://forum.kerbalspaceprogram.com/index.php?/topic/50471-/)<br><sub><sup>(shrinked versions)</sup></sub><br>[RSSExpansion](http://forum.kerbalspaceprogram.com/index.php?/topic/116275-/)|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Rhats's Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/118902-/)|Hyperdon|[Sirius B](https://en.wikipedia.org/wiki/Sirius#Sirius_B)|A2 D|
+|[Saru Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/119263-/)|Paribo|[Fomalhaut](https://en.wikipedia.org/wiki/Fomalhaut)|A3 V|
+|[Sentar Expansion](http://forum.kerbalspaceprogram.com/index.php?/topic/117355-/)|Sloof|[Arcturus](https://en.wikipedia.org/wiki/Arcturus)|K0 III|
+|[Sido's Urania Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/60733-/)|Sido|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Stock-alike Solar System](http://forum.kerbalspaceprogram.com/index.php?/topic/131405-/) <sub><sup>(The small version)</sup></sub>|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
+|[Sylandro's Planet Warehouse](http://forum.kerbalspaceprogram.com/index.php?/topic/119275-/)|Daneel|[Epsilon Eridani](https://en.wikipedia.org/wiki/Epsilon_Eridani)|K2 V|
+|[Trans-Keptunian](http://forum.kerbalspaceprogram.com/index.php?/topic/98346-/)|Plide|[Teide 1](https://en.wikipedia.org/wiki/Teide_1)|M8|
+|[Uncharted Lands](http://forum.kerbalspaceprogram.com/index.php?/topic/120111-/)|Snu|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 
 ## Supported Star Systems
 
-- [OtherWorlds](http://forum.kerbalspaceprogram.com/index.php/topic/115917-/)
-- [Keridani star system](http://forum.kerbalspaceprogram.com/index.php/topic/123197-/)
+- [OtherWorlds](http://forum.kerbalspaceprogram.com/index.php?/topic/115917-/)
+- [Keridani star system](http://forum.kerbalspaceprogram.com/index.php?/topic/123197-/&do=findComment&comment=2470891)
 
 ## Downloads
 
@@ -87,10 +88,10 @@ This is a **triple system** of three white dwarfs all orbiting the same barycent
 
 ## Credits
 
-- **Sarbian & Co.** for [ModuleManager](http://forum.kerbalspaceprogram.com/index.php/topic/50533-/)
-- **Thomas P.** & Co. for [Kopernicus](http://forum.kerbalspaceprogram.com/index.php/topic/103277-/)
-- **cybutek** for [KSP-AVC](http://forum.kerbalspaceprogram.com/index.php/topic/72169-/)
-- **shaw** for [Texture Replacer](http://forum.kerbalspaceprogram.com/index.php/topic/96851-/)
+- **Sarbian & Co.** for [ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50533-/)
+- **Thomas P.** & Co. for [Kopernicus](http://forum.kerbalspaceprogram.com/index.php?/topic/103277-/)
+- **cybutek** for [KSP-AVC](http://forum.kerbalspaceprogram.com/index.php?/topic/72169-/)
+- **shaw** for [Texture Replacer](http://forum.kerbalspaceprogram.com/index.php?/topic/96851-/)
 - **Olympic1** for his help troubleshooting/proofreading some of the code
 - **Tynrael** for TR tips
 
