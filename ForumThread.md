@@ -16,7 +16,7 @@
 |[Arkas](http://forum.kerbalspaceprogram.com/index.php/topic/121139-/)|Osmis|[Pi<sup>3</sup> Orionis](https://en.wikipedia.org/wiki/Pi3_Orionis)|F6 V|
 |[Asclepius](http://forum.kerbalspaceprogram.com/index.php/topic/113949-/) <sub><sup>(shared with Kronkus)</sup></sub>|Tyfon|||
 |[Boris System](http://forum.kerbalspaceprogram.com/index.php/topic/63556-/)|Blotch|[Gliese 581](https://en.wikipedia.org/wiki/Gliese_581)|M3V|
-|[Chani Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/116250-/)|Lapiun|||
+|[Chani Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/116250-/)|Lapiun|[α Leo A](https://en.wikipedia.org/wiki/Regulus#System)|B7 V|
 |[Jungis Planet Pack](http://forum.kerbalspaceprogram.com/index.php/topic/123992-/)|Eol|[Altair](https://en.wikipedia.org/wiki/Altair)|A7 V|
 |[Kerbol Plus Remade](http://forum.kerbalspaceprogram.com/index.php/topic/124505-/)|Kerbol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 |[Kronkus](http://forum.kerbalspaceprogram.com/index.php/topic/119202-/) <sub><sup>(shared with Asclepius)</sup></sub>|Tyfon
