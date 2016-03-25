@@ -23,7 +23,7 @@
 |[Kronkus](http://forum.kerbalspaceprogram.com/index.php?/topic/119202-/) <sub><sup>(shared with Asclepius)</sup></sub>|Tyfon|[δ Cir A](https://en.wikipedia.org/wiki/Delta_Circini)|O8 IV|
 |[New Horizons](http://forum.kerbalspaceprogram.com/index.php?/topic/102776-/)|Horizon|[Mu Columbae](https://en.wikipedia.org/wiki/Mu_Columbae)|O9.5 V|
 |[Outer Planets Mod](http://forum.kerbalspaceprogram.com/index.php?/topic/93999-/)|Helios|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[PluronKhato](http://forum.kerbalspaceprogram.com/index.php?/topic/122296-/)|Umbra, Lux <sub><sup>(binary)</sup></sub>|[Eta Ursae Majoris](https://en.wikipedia.org/wiki/Eta_Ursae_Majoris), [Tau Ceti](https://en.wikipedia.org/wiki/Tau_Ceti)|G8 V, B5 V|
+|[PluronKhato](http://forum.kerbalspaceprogram.com/index.php?/topic/122296-/)|Umbra, Lux <sub><sup>(binary)</sup></sub>|[Eta Ursae Majoris](https://en.wikipedia.org/wiki/Eta_Ursae_Majoris), [Tau Ceti](https://en.wikipedia.org/wiki/Tau_Ceti)|B5 V, G8.5 V|
 |[Real Solar System](http://forum.kerbalspaceprogram.com/index.php?/topic/50471-/) <sub><sup>(a shrinked versions)</sup></sub>|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 |[Rhats's Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/118902-/)|Hyperdon|[Sirius B](https://en.wikipedia.org/wiki/Sirius#Sirius_B)|A2 D|
 |[RSSExpansion](http://forum.kerbalspaceprogram.com/index.php?/topic/116275-/) <sub><sup>(a shrinked versions)</sup></sub>|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
