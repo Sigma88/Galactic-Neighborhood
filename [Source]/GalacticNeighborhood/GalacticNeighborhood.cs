@@ -7,7 +7,6 @@ using UnityEngine;
 using Kopernicus.Components;
 using Kopernicus.Configuration;
 
-//using SigmaGalacticNeighborhood.Components;
 
 
 namespace SigmaGalacticNeighborhood
@@ -17,8 +16,6 @@ namespace SigmaGalacticNeighborhood
         [ExternalParserTarget("GalacticNeighborhood")]
         public class GalacticNeighborhood : ExternalParserTargetLoader, IParserEventSubscriber
         {
-           // public GalacticNeighborhood galacticneighborhood { get; set; }
-            
             void IParserEventSubscriber.Apply(ConfigNode node)
             {
                 foreach (SunCoronas corona in generatedBody.scaledVersion.GetComponentsInChildren<SunCoronas>(true))
