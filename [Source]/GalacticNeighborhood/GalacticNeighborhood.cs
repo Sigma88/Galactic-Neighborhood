@@ -23,7 +23,6 @@ namespace SigmaGalacticNeighborhood
                     corona.renderer.enabled = false;
                 }
                 generatedBody.scaledVersion.renderer.enabled = false;
-                Debug.Log("GNLOG: deleted");
             }
 
             void IParserEventSubscriber.PostApply(ConfigNode node)
