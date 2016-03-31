@@ -7,6 +7,7 @@
 
 ## Supported Mods
 - [KSP-AVC](http://forum.kerbalspaceprogram.com/index.php?/topic/72169-/)
+- [Sigma Binary](http://forum.kerbalspaceprogram.com/index.php?/topic/115114-/)
 
 ## Supported Planet Packs
 
