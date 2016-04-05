@@ -17,7 +17,7 @@
 |[Arkas](http://forum.kerbalspaceprogram.com/index.php?/topic/121139-/&do=findComment&comment=2495662)|Osmis|[Pi<sup>3</sup> Orionis](https://en.wikipedia.org/wiki/Pi3_Orionis)|F6 V|
 |[Asclepius](http://forum.kerbalspaceprogram.com/index.php?/topic/113949-/) <sub><sup>(shared with Kronkus)</sup></sub>|Tyfon|[δ Cir A](https://en.wikipedia.org/wiki/Delta_Circini)|O8 IV|
 |[Boris System](http://forum.kerbalspaceprogram.com/index.php?/topic/63556-/)|Blotch|[Gliese 581](https://en.wikipedia.org/wiki/Gliese_581)|M3 V|
-|[Chani Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/116250-/)|Lapiun|[α Leo A](https://en.wikipedia.org/wiki/Regulus#System)|B7 V|
+|[Chani Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/116250-/&do=findComment&comment=2496955)|Lapiun|[α Leo A](https://en.wikipedia.org/wiki/Regulus#System)|B7 V|
 |[Farlo Planetary Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/127654-/)|Lasna|[HD 98649](https://en.wikipedia.org/wiki/HD_98649)|G4 V|
 |[Jungis Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/123992-/)|Eol|[Altair](https://en.wikipedia.org/wiki/Altair)|A7 V|
 |[Kerbol Plus Remade](http://forum.kerbalspaceprogram.com/index.php?/topic/124505-/)|Kerbol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
@@ -26,7 +26,7 @@
 |[Outer Planets Mod](http://forum.kerbalspaceprogram.com/index.php?/topic/93999-/)|Helios|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 |[PluronKhato](http://forum.kerbalspaceprogram.com/index.php?/topic/122296-/)|Umbra, Lux <sub><sup>(binary)</sup></sub>|[Eta Ursae Majoris](https://en.wikipedia.org/wiki/Eta_Ursae_Majoris), [Tau Ceti](https://en.wikipedia.org/wiki/Tau_Ceti)|B3 V, G8.5 V|
 |[Real Solar System](http://forum.kerbalspaceprogram.com/index.php?/topic/50471-/) <sub><sup>(a shrinked versions)</sup></sub>|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[Rhats's Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/118902-/)|Hyperdon|[Sirius B](https://en.wikipedia.org/wiki/Sirius#Sirius_B)|A2 D|
+|[Rhats's Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/118902-/&do=findComment&comment=2496964)|Hyperdon|[Sirius B](https://en.wikipedia.org/wiki/Sirius#Sirius_B)|A2 D|
 |[RSSExpansion](http://forum.kerbalspaceprogram.com/index.php?/topic/116275-/) <sub><sup>(a shrinked versions)</sup></sub>|Sol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 |[Saru Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/119263-/)|Paribo|[Fomalhaut](https://en.wikipedia.org/wiki/Fomalhaut)|A3 V|
 |[Sentar Expansion](http://forum.kerbalspaceprogram.com/index.php?/topic/117355-/)|Sloof|[Arcturus](https://en.wikipedia.org/wiki/Arcturus)|K0 III|
