@@ -14,7 +14,7 @@
 | Planet Pack | Star Name | Real Life Counterpart | Spectral Type |
 |-------------|-----------|-----------------------|:-------------:|
 |[Alternis Kerbol Rekerjiggered](http://forum.kerbalspaceprogram.com/index.php?/topic/120246-/)|Alternis|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
-|[Arkas](http://forum.kerbalspaceprogram.com/index.php?/topic/121139-/)|Osmis|[Pi<sup>3</sup> Orionis](https://en.wikipedia.org/wiki/Pi3_Orionis)|F6 V|
+|[Arkas](http://forum.kerbalspaceprogram.com/index.php?/topic/121139-/&do=findComment&comment=2495662)|Osmis|[Pi<sup>3</sup> Orionis](https://en.wikipedia.org/wiki/Pi3_Orionis)|F6 V|
 |[Asclepius](http://forum.kerbalspaceprogram.com/index.php?/topic/113949-/) <sub><sup>(shared with Kronkus)</sup></sub>|Tyfon|[δ Cir A](https://en.wikipedia.org/wiki/Delta_Circini)|O8 IV|
 |[Boris System](http://forum.kerbalspaceprogram.com/index.php?/topic/63556-/)|Blotch|[Gliese 581](https://en.wikipedia.org/wiki/Gliese_581)|M3 V|
 |[Chani Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/116250-/)|Lapiun|[α Leo A](https://en.wikipedia.org/wiki/Regulus#System)|B7 V|
