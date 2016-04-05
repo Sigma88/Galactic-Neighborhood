@@ -10,7 +10,7 @@ namespace SigmaGalacticNeighborhood
 {
 	namespace Configuration
 	{
-		[KSPAddon(KSPAddon.Startup.SpaceCentre, true)]
+		[KSPAddon(KSPAddon.Startup.SpaceCentre, false)]
 		public class ArchivesFixer : MonoBehaviour
 		{
 			void Update()
