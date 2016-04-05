@@ -19,7 +19,7 @@
 |[Boris System](http://forum.kerbalspaceprogram.com/index.php?/topic/63556-/)|Blotch|[Gliese 581](https://en.wikipedia.org/wiki/Gliese_581)|M3 V|
 |[Chani Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/116250-/)|Lapiun|[α Leo A](https://en.wikipedia.org/wiki/Regulus#System)|B7 V|
 |[Farlo Planetary Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/127654-/)|Lasna|[HD 98649](https://en.wikipedia.org/wiki/HD_98649)|G4 V|
-|[Jungis Planet Pack](http://forum.kerbalspaceprogram.com/index.php??/topic/123992-/)|Eol|[Altair](https://en.wikipedia.org/wiki/Altair)|A7 V|
+|[Jungis Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/123992-/)|Eol|[Altair](https://en.wikipedia.org/wiki/Altair)|A7 V|
 |[Kerbol Plus Remade](http://forum.kerbalspaceprogram.com/index.php?/topic/124505-/)|Kerbol|[Sun](https://en.wikipedia.org/wiki/Sun)|G2 V|
 |[Kronkus](http://forum.kerbalspaceprogram.com/index.php?/topic/119202-/) <sub><sup>(shared with Asclepius)</sup></sub>|Tyfon|[δ Cir A](https://en.wikipedia.org/wiki/Delta_Circini)|O8 IV|
 |[New Horizons](http://forum.kerbalspaceprogram.com/index.php?/topic/102776-/)|Horizon|[Mu Columbae](https://en.wikipedia.org/wiki/Mu_Columbae)|O9.5 V|
