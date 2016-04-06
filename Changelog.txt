@@ -1,6 +1,12 @@
+**v0.1.0**
+
+- First Beta Release
+
+
 **v0.0.9**
 
 - Added compatibility with Uncharted Lands
+
 
 **v0.0.8**
 
