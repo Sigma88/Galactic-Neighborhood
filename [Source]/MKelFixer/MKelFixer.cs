@@ -42,9 +42,10 @@ namespace SigmaGalacticNeighborhood
                     {
                         if (reference.name == realReference)
                         {
-                            body.orbit.ObTAtEpoch = body.orbit.ObTAtEpoch * Math.Pow(body.referenceBody.Mass / reference.Mass, 0.5);
                             body.orbitDriver.referenceBody = reference;
+                            body.orbit.ObTAtEpoch = body.orbit.ObTAtEpoch / body.orbit.period;
                             body.orbit.period = 2 * Math.PI * Math.Sqrt(Math.Pow(body.orbit.semiMajorAxis, 3) / (6.674E-11 * reference.Mass));
+                            body.orbit.ObTAtEpoch = body.orbit.ObTAtEpoch * body.orbit.period;
                             Debug.Log("MKELog: Reference for body " + body.name + " was changed to " + reference.name);
                         }
                     }
