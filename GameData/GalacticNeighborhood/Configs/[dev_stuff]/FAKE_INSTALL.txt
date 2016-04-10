@@ -29,20 +29,24 @@
 }
 @Kopernicus:NEEDS[!OtherWorlds]:FOR[OtherWorldsFAKE]
 {
-	+Body[Mun]
+	Body
 	{
-		@name = CercaniFAKE
-		@Orbit
+		name = Cercani
+		Template
 		{
-			%color = 0.742,0.512,0.271,1
-			%inclination = 356
-			%eccentricity = 0
-			%semiMajorAxis = 0.925e14
-			%longitudeOfAscendingNode = 270
-			%argumentOfPeriapsis = 90
-			%meanAnomalyAtEpoch = 6.19
-			%epoch = 0
-			%referenceBody = Sun
+			name = Sun
+		}
+		Orbit
+		{
+			referenceBody = Sun
+			color = 0.742,0.512,0.271,1
+			inclination = 356
+			eccentricity = 0
+			semiMajorAxis = 0.925e14
+			longitudeOfAscendingNode = 270
+			argumentOfPeriapsis = 90
+			meanAnomalyAtEpoch = 6.19
+			epoch = 0
 		}
 	}
 }
@@ -52,20 +56,24 @@
 }
 @Kopernicus:FOR[RealSSFAKE]:NEEDS[!RealSolarSystem]
 {
-	+Body[Mun]
+	Body
 	{
-		@name = SolFAKE
-		@Orbit
+		name = Sol
+		Template
 		{
-			%color = 0.7,0.7,0.4,1
-			%inclination = 351
-			%eccentricity = 0
-			%semiMajorAxis = 101107757752090
-			%longitudeOfAscendingNode = 270
-			%argumentOfPeriapsis = 90
-			%meanAnomalyAtEpoch = 0
-			%epoch = 0
-			%referenceBody = Sun
+			name = Sun
+		}
+		Orbit
+		{
+			color = 0.7,0.7,0.4,1
+			inclination = 351
+			eccentricity = 0
+			semiMajorAxis = 101107757752090
+			longitudeOfAscendingNode = 270
+			argumentOfPeriapsis = 90
+			meanAnomalyAtEpoch = 0
+			epoch = 0
+			referenceBody = Sun
 		}
 	}
 }
@@ -89,30 +97,30 @@
 {
 // installed
 }
-@Kopernicus:FOR[KerbolPlus]
-{
-// installed
-}
 @Kopernicus:FOR[RPM]
 {
 // installed
 }
 @Kopernicus:FOR[PlanetsFAKE]:NEEDS[!Planets]
 {
-	+Body[Mun]
+	Body
 	{
-		@name = KeridaniFAKE
-		@Orbit
+		name = Cercani
+		Template
 		{
-			%color = 1,0.75,0.5,1
-			%inclination = 10
-			%eccentricity = 0
-			%semiMajorAxis = 1.03e14
-			%longitudeOfAscendingNode = 270
-			%argumentOfPeriapsis = 90
-			%meanAnomalyAtEpoch = -0.25
-			%epoch = 0
-			%referenceBody = Sun
+			name = Keridani
+		}
+		Orbit
+		{
+			referenceBody = Sun
+			color = 1,0.75,0.5,1
+			inclination = 10
+			eccentricity = 0
+			semiMajorAxis = 1.03e14
+			longitudeOfAscendingNode = 270
+			argumentOfPeriapsis = 90
+			meanAnomalyAtEpoch = -0.25
+			epoch = 0
 		}
 	}
 }
