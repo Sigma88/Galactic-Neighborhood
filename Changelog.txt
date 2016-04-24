@@ -2,6 +2,7 @@
 
 - Updated for KSP 1.1 compatibility
 - Removed all plugins, those features have been included into kopernicus
+- Added Ec generation to Solar Panels
 
 
 **v0.1.0**
