@@ -1,3 +1,9 @@
+**v0.2.0**
+
+- Updated for KSP 1.1 compatibility
+- Removed all plugins, those features have been included into kopernicus
+
+
 **v0.1.0**
 
 - First Beta Release
