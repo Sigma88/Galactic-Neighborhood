@@ -1,3 +1,8 @@
+**v0.2.1**
+
+- Fixed science archives
+
+
 **v0.2.0**
 
 - Updated for KSP 1.1 compatibility
