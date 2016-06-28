@@ -32,30 +32,23 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\..\..\Giochi\Kerbal Space Program\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>..\..\..\..\..\..\Giochi\Kerbal Space Program\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>..\KerbalSpaceProgram\KSP_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Kopernicus">
-      <HintPath>..\..\..\..\..\..\Giochi\Kerbal Space Program\GameData\Kopernicus\Plugins\Kopernicus.dll</HintPath>
+      <HintPath>..\Kopernicus\Kopernicus.dll</HintPath>
     </Reference>
-    <Reference Include="Kopernicus.Components">
-      <HintPath>..\..\..\..\..\..\Giochi\Kerbal Space Program\GameData\Kopernicus\Plugins\Kopernicus.Components.dll</HintPath>
-    </Reference>
-    <Reference Include="Kopernicus.OnDemand">
-      <HintPath>..\..\..\..\..\..\Giochi\Kerbal Space Program\GameData\Kopernicus\Plugins\Kopernicus.OnDemand.dll</HintPath>
-    </Reference>
-    <Reference Include="KSPUtil">
-      <HintPath>..\..\..\..\..\..\Giochi\Kerbal Space Program\KSP_x64_Data\Managed\KSPUtil.dll</HintPath>
+    <Reference Include="KSPUtil, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\KerbalSpaceProgram\KSP_Data\Managed\KSPUtil.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\..\..\Giochi\Kerbal Space Program\KSP_x64_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\KerbalSpaceProgram\KSP_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>..\..\..\..\..\..\Giochi\Kerbal Space Program\KSP_x64_Data\Managed\UnityEngine.UI.dll</HintPath>
+    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\KerbalSpaceProgram\KSP_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
