@@ -1,3 +1,12 @@
+**v0.3.0**
+
+- Updated to KSP 1.1.3 and Kopernicus 1.1.2
+- Fixed brightness curve generation for all stars
+- Removed solar panels workaround
+- First attempts at star luminosity
+- Added a plugin to fix the science archives
+
+
 **v0.2.1**
 
 - Fixed science archives
@@ -6,7 +15,7 @@
 **v0.2.0**
 
 - Updated for KSP 1.1 compatibility
-- Removed all plugins, those features have been included into kopernicus
+- Removed all plugins, those features have been included into Kopernicus
 - Added Ec generation to Solar Panels
 
 
