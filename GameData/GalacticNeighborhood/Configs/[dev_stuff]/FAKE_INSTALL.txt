@@ -9,7 +9,7 @@
 @Kopernicus:FOR[Arkas] {} // installed
 @Kopernicus:FOR[New_Horizons] {} // installed
 @Kopernicus:FOR[Sido_Urania_System] {} // installed
-@Kopernicus:FOR[KAUL] {} // installed
+@Kopernicus:FOR[KAULFAKE] {} // installed
 @Kopernicus:FOR[RPM] {} // installed
 @Kopernicus:FOR[Jungis] {} // installed
 @Kopernicus:FOR[KPlus] {} // installed
@@ -48,10 +48,10 @@
 {
 	Body
 	{
-		name = Cercani
+		name = Keridani
 		Template
 		{
-			name = Keridani
+			name = Sun
 		}
 		Orbit
 		{
