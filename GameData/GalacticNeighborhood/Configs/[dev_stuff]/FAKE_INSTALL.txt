@@ -21,7 +21,7 @@
 	!Body:HAS[#name[Helios?*]] {}
 	!Body:HAS[#name[Sarnus?*]] {}
 }
-@Kopernicus:NEEDS[!OtherWorlds]:FOR[OtherWorldsFAKE]
+@Kopernicus:NEEDS[!OtherWorlds]
 {
 	Body
 	{
@@ -44,7 +44,7 @@
 		}
 	}
 }
-@Kopernicus:FOR[PlanetsFAKE]:NEEDS[!Planets]
+@Kopernicus:NEEDS[!Planets]
 {
 	Body
 	{
@@ -67,7 +67,7 @@
 		}
 	}
 }
-@Kopernicus:FOR[RealSSFAKE]:NEEDS[!RealSolarSystem]
+@Kopernicus:NEEDS[!RealSolarSystem]
 {
 	Body
 	{
