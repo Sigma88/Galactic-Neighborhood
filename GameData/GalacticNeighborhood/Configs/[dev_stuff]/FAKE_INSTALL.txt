@@ -1,5 +1,5 @@
 @Kopernicus:FOR[PFSystems] {} // installed
-@Kopernicus:FOR[OPM] {} // installed
+@Kopernicus:FOR[OPMFAKE] {} // installed
 @Kopernicus:FOR[Asclepius] {} // installed
 @Kopernicus:FOR[Trans-Keptunian] {} // installed
 @Kopernicus:FOR[SentarExpansion] {} // installed
