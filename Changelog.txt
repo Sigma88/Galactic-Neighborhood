@@ -5,6 +5,8 @@
 - Removed solar panels workaround
 - First attempts at star luminosity
 - Added a plugin to fix the science archives
+- Fixed Kerbin reparenting using the new Kopernicus feature 'PostSpawnOrbit'
+- Changed the Kerbin clone in the OPM System to be a copy of Laythe
 
 
 **v0.2.1**
