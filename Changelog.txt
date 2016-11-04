@@ -1,6 +1,6 @@
 **v0.3.0**
 
-- Updated to KSP 1.1.3 and Kopernicus 1.1.2
+- Updated to KSP 1.2.1 and Kopernicus 1.2.1-1
 - Fixed brightness curve generation for all stars
 - Removed solar panels workaround
 - First attempts at star luminosity
