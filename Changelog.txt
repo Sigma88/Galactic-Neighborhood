@@ -1,3 +1,12 @@
+**v0.3.1**
+
+- Added compatibility with Kerbol Origins
+- Added compatibility with Galileo Planet Pack
+- Fixed compatibility with Stockalike Solar System
+- Fixed compatibility with Real Solar System
+- Changed the way stars are added to the Neighborhood
+
+
 **v0.3.0**
 
 - Updated to KSP 1.2.1 and Kopernicus 1.2.1-1
