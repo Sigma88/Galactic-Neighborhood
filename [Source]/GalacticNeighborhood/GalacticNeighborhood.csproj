@@ -32,13 +32,26 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ArchiveFixer.cs" />
+    <Compile Include="SettingsLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SunFlareSwitcher.cs" />
     <Compile Include="TrackingStationFixer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\[References]\KerbalSpaceProgram\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Kopernicus, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\[References]\Kopernicus\Kopernicus.dll</HintPath>
+    </Reference>
+    <Reference Include="Kopernicus.Components, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\[References]\Kopernicus\Kopernicus.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Kopernicus.Parser">
+      <HintPath>..\..\..\[References]\Kopernicus\Kopernicus.Parser.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
