@@ -85,7 +85,10 @@ namespace GalacticNeighborhoodPlugin
 
         Color Pick(Texture2D texture)
         {
-            return texture.GetPixel((temperature - 2400) / 50, 0);
+            int x = (temperature - 2400) / 50;
+            x = x < 0 ? 0 : x > texture.width - 1 ? texture.width - 1 : x;
+
+            return texture.GetPixel(x, 0);
         }
     }
 }
