@@ -76,6 +76,11 @@ namespace GalacticNeighborhoodPlugin
                 light.scaledSunlightColor = color;
                 light.sunlightColor = color;
             }
+
+
+            // Set Orbit Color
+            if (setOrbit.value && emitColor0 != null)
+                generatedBody.orbitRenderer.SetColor(Pick(emitColor0));
         }
 
         Color Pick(Texture2D texture)
