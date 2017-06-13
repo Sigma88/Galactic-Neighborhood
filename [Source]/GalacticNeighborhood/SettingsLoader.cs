@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using Kopernicus;
 using Kopernicus.Configuration;
-using System.Linq;
 using System;
 using System.Collections.Generic;
 
@@ -14,24 +13,26 @@ namespace GalacticNeighborhoodPlugin
         [ParserTarget("Light", optional = true, allowMerge = true)]
         public ActiveFlareLoader activeFlareLoader;
 
-        [ParserTargetCollection("GNCoronas", nameSignificance = NameSignificance.None)]
-        public List<GNCorona> GNcoronas
+        [ParserTargetCollection("GNCoronae", nameSignificance = NameSignificance.None)]
+        public List<GNCorona> GNcoronae
         {
             set
             {
-                SunCoronas[] coronas = generatedBody.scaledVersion?.GetComponentsInChildren<SunCoronas>(true);
+                SunCoronas[] coronae = generatedBody.scaledVersion?.GetComponentsInChildren<SunCoronas>(true);
 
-                for (int i = 0; i < Math.Min(coronas.Length, value.Count); i++)
+                for (int i = 0; i < Math.Min(coronae.Length, value.Count); i++)
                 {
-                    Material material = coronas[i]?.GetComponent<Renderer>()?.material;
-                    Texture mainTexture = Resources.FindObjectsOfTypeAll<Texture>().FirstOrDefault(t => t.name == value[i].mainTexture);
+                    Material material = coronae[i]?.GetComponent<Renderer>()?.material;
 
-                    if (mainTexture != null && material != null)
-                        material.mainTexture = mainTexture;
-                    if (value[i].mainTextureOffset != null && material != null)
-                        material.mainTextureOffset = value[i].mainTextureOffset;
-                    if (value[i].mainTextureScale != null && material != null)
-                        material.mainTextureScale = value[i].mainTextureScale;
+                    if (material != null)
+                    {
+                        if (value[i].mainTexture != null)
+                            material.mainTexture = value[i].mainTexture.value;
+                        if (value[i].mainTextureOffset != null)
+                            material.mainTextureOffset = value[i].mainTextureOffset;
+                        if (value[i].mainTextureScale != null)
+                            material.mainTextureScale = value[i].mainTextureScale;
+                    }
                 }
             }
         }
@@ -49,17 +50,17 @@ namespace GalacticNeighborhoodPlugin
             }
         }
     }
-    
+
     public class GNCorona
     {
         [ParserTarget("mainTexture", optional = true)]
-        public string mainTexture { get; set; }
+        public Texture2DParser mainTexture = null;
 
         [ParserTarget("mainTextureOffset", optional = true)]
-        public Vector2Parser mainTextureOffset { get; set; }
+        public Vector2Parser mainTextureOffset = null;
 
         [ParserTarget("mainTextureScale", optional = true)]
-        public Vector2Parser mainTextureScale { get; set; }
+        public Vector2Parser mainTextureScale = null;
 
         public GNCorona()
         {
