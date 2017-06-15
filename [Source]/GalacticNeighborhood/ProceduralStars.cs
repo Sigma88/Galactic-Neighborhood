@@ -6,7 +6,7 @@ using Kopernicus.Components;
 
 namespace GalacticNeighborhoodPlugin
 {
-    [ParserTargetExternal("Body", "ProceduralStar")]
+    [ParserTargetExternal("Body", "ProceduralStar", "Kopernicus")]
     public class ProceduralStar : BaseLoader, IParserEventSubscriber
     {
         [ParserTarget("temperature", optional = true)]

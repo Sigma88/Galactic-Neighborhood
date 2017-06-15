@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace GalacticNeighborhoodPlugin
 {
-    [ParserTargetExternal("Body", "ScaledVersion")]
+    [ParserTargetExternal("Body", "ScaledVersion", "Kopernicus")]
     public class SettingsLoader : BaseLoader
     {
         [ParserTarget("Light", optional = true, allowMerge = true)]
