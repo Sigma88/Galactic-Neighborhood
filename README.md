@@ -9,7 +9,7 @@ Download Latest Release: https://github.com/Sigma88/Galactic-Neighborhood/releas
 
 Dev version: https://github.com/Sigma88/Galactic-Neighborhood/tree/Development
 
-<br><br><br>
+<br><br>
 
 ## Star Census (All Stars)
 
