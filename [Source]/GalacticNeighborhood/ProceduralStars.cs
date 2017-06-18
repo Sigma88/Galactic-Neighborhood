@@ -50,8 +50,6 @@ namespace GalacticNeighborhoodPlugin
                 if (emitColor0 != null)
                 {
                     Color color = Pick(emitColor0);
-                    if (type == StarType.WhiteDwarf)
-                        color = Color.white;
 
                     material.SetColor("_EmitColor0", color);
 
@@ -64,6 +62,12 @@ namespace GalacticNeighborhoodPlugin
 
                 if (emitColor1 != null)
                     material.SetColor("_EmitColor1", Pick(emitColor1));
+
+                if (type == StarType.WhiteDwarf)
+                {
+                    material.SetColor("_EmitColor0", new Color(0.9f, 0.9f, 0.9f, 1));
+                    material.SetColor("_EmitColor1", material.GetColor("_EmitColor1") * 0.925f);
+                }
 
                 if (sunspotColor != null)
                     material.SetColor("_SunspotColor", Pick(sunspotColor));
@@ -99,9 +103,10 @@ namespace GalacticNeighborhoodPlugin
 
         public enum StarType
         {
+            BrownDwarf,
             MainSequence,
-            WhiteDwarf,
-            RedGiant
+            RedGiant,
+            WhiteDwarf
         }
     }
 }
