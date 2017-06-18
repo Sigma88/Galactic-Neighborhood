@@ -71,7 +71,7 @@ namespace GalacticNeighborhoodPlugin
             {
                 Color color = Pick(lightColors);
 
-                light.ambientLightColor = color;
+                light.ambientLightColor = new Color(0, 0, 0, 1);
                 light.IVASunColor = color;
                 light.scaledSunlightColor = color;
                 light.sunlightColor = color;
