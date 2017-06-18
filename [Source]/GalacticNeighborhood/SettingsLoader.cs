@@ -13,7 +13,7 @@ namespace GalacticNeighborhoodPlugin
         [ParserTarget("Light", optional = true, allowMerge = true)]
         public ActiveFlareLoader activeFlareLoader;
 
-        [ParserTargetCollection("GNCoronae", nameSignificance = NameSignificance.None)]
+        [ParserTargetCollection("GNCoronae", nameSignificance = NameSignificance.Key, key = "Corona")]
         public List<GNCorona> GNcoronae
         {
             set
@@ -51,6 +51,7 @@ namespace GalacticNeighborhoodPlugin
         }
     }
 
+    [RequireConfigType(ConfigType.Node)]
     public class GNCorona
     {
         [ParserTarget("mainTexture", optional = true)]

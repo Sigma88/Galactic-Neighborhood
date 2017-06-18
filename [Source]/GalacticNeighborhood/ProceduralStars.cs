@@ -32,6 +32,9 @@ namespace GalacticNeighborhoodPlugin
 
         [ParserTarget("setOrbit", optional = true)]
         public NumericParser<bool> setOrbit = true;
+        
+        [ParserTarget("type", optional = true)]
+        public EnumParser<StarType> type = StarType.MainSequence;
 
         void IParserEventSubscriber.Apply(ConfigNode node)
         {
@@ -47,6 +50,14 @@ namespace GalacticNeighborhoodPlugin
                 if (emitColor0 != null)
                 {
                     Color color = Pick(emitColor0);
+                    
+                    if (type == StarType.WhiteDwarf)
+                    {
+                        ColorHSV newcolor = new ColorHSV(color);
+                        newcolor.s = 0;
+                        color = newcolor.ToColor();
+                    }
+
                     material.SetColor("_EmitColor0", color);
 
                     if (emitColorMult > 0 && emitColorMult < float.MaxValue)
@@ -57,7 +68,18 @@ namespace GalacticNeighborhoodPlugin
                 }
 
                 if (emitColor1 != null)
-                    material.SetColor("_EmitColor1", Pick(emitColor1));
+                {
+                    Color color = Pick(emitColor1);
+                    
+                    if (type == StarType.WhiteDwarf)
+                    {
+                        ColorHSV newcolor = new ColorHSV(color);
+                        newcolor.s = 0;
+                        color = newcolor.ToColor();
+                    }
+
+                    material.SetColor("_EmitColor1", color);
+                }
 
                 if (sunspotColor != null)
                     material.SetColor("_SunspotColor", Pick(sunspotColor));
@@ -89,6 +111,13 @@ namespace GalacticNeighborhoodPlugin
             x = x < 0 ? 0 : x > texture.width - 1 ? texture.width - 1 : x;
 
             return texture.GetPixel(x, 0);
+        }
+        
+        public enum StarType
+        {
+            MainSequence,
+            WhiteDwarf,
+            RedGiant
         }
     }
 }
