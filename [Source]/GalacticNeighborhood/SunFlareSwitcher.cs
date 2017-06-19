@@ -32,7 +32,7 @@ namespace GalacticNeighborhoodPlugin
                 activeStar = KopernicusStar.Current;
 
                 // Backup default flare and load activeFlare
-                if (activeStar == null && activeStar.sunFlare == null)
+                if (activeStar != null && activeStar.sunFlare != null)
                 {
                     oldFlare = activeStar.sunFlare.flare;
                     activeStar.sunFlare.flare = activeFlares[activeStar.name];
