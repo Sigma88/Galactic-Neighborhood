@@ -9,32 +9,41 @@ namespace GalacticNeighborhoodPlugin
     [ParserTargetExternal("Body", "ProceduralStar", "Kopernicus")]
     public class ProceduralStar : BaseLoader, IParserEventSubscriber
     {
+        [ParserTarget("type", optional = true)]
+        public EnumParser<StarType> type = StarType.MainSequence;
+
         [ParserTarget("temperature", optional = true)]
         public NumericParser<int> temperature = 5772;
-
-        [ParserTarget("emitColor1", optional = true)]
-        public Texture2DParser emitColor1;
 
         [ParserTarget("emitColor0", optional = true)]
         public Texture2DParser emitColor0;
 
+        [ParserTarget("emitColor1", optional = true)]
+        public Texture2DParser emitColor1;
+
+        [ParserTarget("emitColorMult", optional = true)]
+        public NumericParser<float> emitColorMult;
+
         [ParserTarget("sunspotColor", optional = true)]
         public Texture2DParser sunspotColor;
+
+        [ParserTarget("sunspotTemp", optional = true)]
+        public NumericParser<int> sunspotTemp;
+
+        [ParserTarget("sunspotColorMult", optional = true)]
+        public NumericParser<float> sunspotColorMult = 1;
 
         [ParserTarget("lightColor", optional = true)]
         public Texture2DParser lightColors;
 
-        [ParserTarget("emitColorMult", optional = true)]
-        public NumericParser<float> emitColorMult = -1;
+        [ParserTarget("lightColorMult", optional = true)]
+        public NumericParser<float> lightColorMult = 1;
 
         [ParserTarget("rimColorMult", optional = true)]
-        public NumericParser<float> rimColorMult = -1;
+        public NumericParser<float> rimColorMult;
 
         [ParserTarget("setOrbit", optional = true)]
         public NumericParser<bool> setOrbit = true;
-
-        [ParserTarget("type", optional = true)]
-        public EnumParser<StarType> type = StarType.MainSequence;
 
         void IParserEventSubscriber.Apply(ConfigNode node)
         {
@@ -53,33 +62,41 @@ namespace GalacticNeighborhoodPlugin
 
                     material.SetColor("_EmitColor0", color);
 
-                    if (emitColorMult > 0 && emitColorMult < float.MaxValue)
+                    if (emitColorMult != null)
                         material.SetColor("_EmitColor1", color * emitColorMult);
 
-                    if (rimColorMult > 0 && rimColorMult < float.MaxValue)
+                    if (rimColorMult != null)
                         material.SetColor("_RimColor", color * rimColorMult);
                 }
 
                 if (emitColor1 != null)
                     material.SetColor("_EmitColor1", Pick(emitColor1));
 
+                if (sunspotColor == null)
+                    sunspotColor = emitColor0;
+
+                if (sunspotTemp == null)
+                    sunspotTemp = temperature;
+
+                material.SetColor("_SunspotColor", Pick(sunspotColor, sunspotTemp) * sunspotColorMult);
+
                 if (type == StarType.WhiteDwarf)
                 {
                     material.SetColor("_EmitColor0", new Color(0.9f, 0.9f, 0.9f, 1));
                     material.SetColor("_EmitColor1", material.GetColor("_EmitColor1") * 0.925f);
                 }
-
-                if (sunspotColor != null)
-                    material.SetColor("_SunspotColor", Pick(sunspotColor));
             }
 
 
             // Apply changes to the LightShifter
             LightShifter light = generatedBody.scaledVersion.GetComponentInChildren<LightShifter>();
 
-            if (light != null && lightColors != null)
+            if (light != null)
             {
-                Color color = Pick(lightColors);
+                if (lightColors == null)
+                    lightColors = emitColor0;
+
+                Color color = Pick(lightColors) * lightColorMult;
 
                 light.ambientLightColor = new Color(0, 0, 0, 1);
                 light.IVASunColor = color;
@@ -94,6 +111,11 @@ namespace GalacticNeighborhoodPlugin
         }
 
         Color Pick(Texture2D texture)
+        {
+            return Pick(texture, temperature);
+        }
+
+        Color Pick(Texture2D texture, int temperature)
         {
             int x = (temperature - 2400) / 50;
             x = x < 0 ? 0 : x > texture.width - 1 ? texture.width - 1 : x;
