@@ -3,23 +3,10 @@ using Kopernicus;
 using Kopernicus.Configuration;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 
 namespace GalacticNeighborhoodPlugin
 {
-    [KSPAddon(KSPAddon.Startup.Instantly, true)]
-    class ConfigNodeFixer : MonoBehaviour
-    {
-        void Start()
-        {
-            foreach (UrlDir.UrlConfig node in GameDatabase.Instance.GetConfigs("GalacticNeighborhood").Where(c => c.url != "GalacticNeighborhood/Settings/GalacticNeighborhood"))
-            {
-                node.parent.configs.Remove(node);
-            }
-        }
-    }
-
     [ParserTargetExternal("Body", "ScaledVersion", "Kopernicus")]
     public class SettingsLoader : BaseLoader
     {
