@@ -25,7 +25,7 @@ namespace GalacticNeighborhoodPlugin
                     {
                         foreach (string c in new[] { "M-Kel A", "M-Kel B", "M-Kel C" })
                         {
-                            trackingstation.Add(PlanetariumCamera.fetch.targets.Find(obj => obj != null && obj.celestialBody.transform.name == c));
+                            trackingstation.Add(PlanetariumCamera.fetch.targets.Find(obj => obj?.celestialBody?.transform?.name == c));
                         }
                     }
                 }
