@@ -7,13 +7,13 @@ using System.Collections.Generic;
 
 namespace GalacticNeighborhoodPlugin
 {
-    [ParserTargetExternal("Body", "ScaledVersion")]
+    [ParserTargetExternal("Body", "ScaledVersion", "Kopernicus")]
     public class SettingsLoader : BaseLoader
     {
         [ParserTarget("Light", optional = true, allowMerge = true)]
         public ActiveFlareLoader activeFlareLoader;
 
-        [ParserTargetCollection("GNCoronae", nameSignificance = NameSignificance.None)]
+        [ParserTargetCollection("GNCoronae", nameSignificance = NameSignificance.Key, key = "Corona")]
         public List<GNCorona> GNcoronae
         {
             set
@@ -22,16 +22,34 @@ namespace GalacticNeighborhoodPlugin
 
                 for (int i = 0; i < Math.Min(coronae.Length, value.Count); i++)
                 {
-                    Material material = coronae[i]?.GetComponent<Renderer>()?.material;
-
-                    if (material != null)
+                    Renderer renderer = coronae[i]?.GetComponent<Renderer>();
+                    if (renderer != null)
                     {
-                        if (value[i].mainTexture != null)
-                            material.mainTexture = value[i].mainTexture.value;
-                        if (value[i].mainTextureOffset != null)
-                            material.mainTextureOffset = value[i].mainTextureOffset;
-                        if (value[i].mainTextureScale != null)
-                            material.mainTextureScale = value[i].mainTextureScale;
+                        if (renderer.material != null)
+                        {
+                            Material material = renderer.material;
+
+                            if (value[i].mainTexture != null)
+                                material.mainTexture = value[i].mainTexture.value;
+                            if (value[i].mainTextureOffset != null)
+                                material.mainTextureOffset = value[i].mainTextureOffset;
+                            if (value[i].mainTextureScale != null)
+                                material.mainTextureScale = value[i].mainTextureScale;
+                        }
+
+                        if (renderer.transform != null)
+                        {
+                            Transform transform = renderer.transform;
+
+                            if (transform.localScale != null)
+                                transform.localScale =
+                                    new Vector3
+                                    (
+                                        transform.localScale.x * value[i].localScaleMult.value.x,
+                                        transform.localScale.y * value[i].localScaleMult.value.y,
+                                        transform.localScale.z * value[i].localScaleMult.value.z
+                                    );
+                        }
                     }
                 }
             }
@@ -51,6 +69,7 @@ namespace GalacticNeighborhoodPlugin
         }
     }
 
+    [RequireConfigType(ConfigType.Node)]
     public class GNCorona
     {
         [ParserTarget("mainTexture", optional = true)]
@@ -61,6 +80,9 @@ namespace GalacticNeighborhoodPlugin
 
         [ParserTarget("mainTextureScale", optional = true)]
         public Vector2Parser mainTextureScale = null;
+
+        [ParserTarget("localScaleMult", optional = true)]
+        public Vector3Parser localScaleMult = new Vector3(1, 1, 1);
 
         public GNCorona()
         {
