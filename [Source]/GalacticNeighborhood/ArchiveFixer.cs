@@ -5,7 +5,6 @@ using System.Linq;
 using KSP.UI.Screens;
 
 
-
 namespace GalacticNeighborhoodPlugin
 {
     [KSPAddon(KSPAddon.Startup.MainMenu, true)]
@@ -32,13 +31,13 @@ namespace GalacticNeighborhoodPlugin
             {
                 parent.children.Add(PSystemManager.Instance.systemPrefab.GetComponentsInChildren<PSystemBody>(true).First(b => b.name == star));
             }
-            
+
             FieldInfo list = typeof(RDArchivesController).GetFields(BindingFlags.Instance | BindingFlags.NonPublic).Skip(7).First();
             MethodInfo add = typeof(RDArchivesController).GetMethods(BindingFlags.Instance | BindingFlags.NonPublic).Skip(27).First();
             var RDAC = Resources.FindObjectsOfTypeAll<RDArchivesController>().First();
-            
+
             list.SetValue(RDAC, new Dictionary<string, List<RDArchivesController.Filter>>());
-            
+
             add.Invoke(RDAC, null);
         }
     }
