@@ -56,7 +56,7 @@ namespace GalacticNeighborhoodPlugin
 
             if (material != null)
             {
-                if (emitColor0 != null)
+                if (emitColor0?.value != null)
                 {
                     Color color = Pick(emitColor0);
 
