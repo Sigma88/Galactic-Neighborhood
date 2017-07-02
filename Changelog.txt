@@ -1,3 +1,10 @@
+**v0.4.1**
+
+- Added compatibility with Gameslinx's Planet Pack
+- Fixed compatibility with TextureReplacer
+- Fixed realistic star flares
+
+
 **v0.4.0**
 
 - Updated to KSP 1.3.0 and Kopernicus 1.3.0-4
