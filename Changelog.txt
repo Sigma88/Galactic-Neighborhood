@@ -1,6 +1,6 @@
 **v0.4.1**
 
-- Added compatibility with Gameslinx's Planet Pack
+- Added compatibility with Gameslinx's Planet Overhaul
 - Fixed compatibility with TextureReplacer
 - Fixed realistic star flares
 
