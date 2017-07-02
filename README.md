@@ -15,10 +15,10 @@ Dev version: https://github.com/Sigma88/Galactic-Neighborhood/tree/Development
 
 | | |Hypergiants|Supergiants|Bright giants|Giants|Subgiants|Dwarfs|Subdwarfs|White Dwarfs|
 |---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|<b><sub><sup>TOTAL</sup></sub><br>39&nbsp;</b>| |0|1|0|2|3|28|1|4|
+|<b><sub><sup>TOTAL</sup></sub><br>40&nbsp;</b>| |0|1|1|2|3|28|1|4|
 | | |**0**|**I**|**II**|**III**|**IV**|**V**|**VI**|**VII**|**
 |2|**O**| | | | |1|1| | |
-|3|**B**| | | | | |3| | |
+|4|**B**| | |1| | |3| | |
 |8|**A**| | | | | |4| |4|
 |3|**F**| |1| | |1|1| | |
 |7|**G**| | | | | |7| | |
@@ -34,10 +34,10 @@ Dev version: https://github.com/Sigma88/Galactic-Neighborhood/tree/Development
 
 | | |Hypergiants|Supergiants|Bright giants|Giants|Subgiants|Dwarfs|Subdwarfs|White Dwarfs|
 |---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|<b><sub><sup>TOTAL</sup></sub><br>24&nbsp;</b>| |0|0|0|2|2|18|1|1|
+|<b><sub><sup>TOTAL</sup></sub><br>25&nbsp;</b>| |0|0|1|2|2|18|1|1|
 | | |**0**|**I**|**II**|**III**|**IV**|**V**|**VI**|**VII**|**
 |2|**O**| | | | |1|1| | |
-|2|**B**| | | | | |2| | |
+|3|**B**| | |1| | |2| | |
 |3|**A**| | | | | |2| |1|
 |2|**F**| | | | |1|1| | |
 |5|**G**| | | | | |5| | |
