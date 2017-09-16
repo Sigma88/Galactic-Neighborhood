@@ -10,6 +10,7 @@ namespace GalacticNeighborhoodPlugin
     {
         void Start()
         {
+            // Remove barycenters from the tracking station
             List<MapObject> trackingstation = new List<MapObject>();
             string[] hide = { "MK1A", "MK1B", "MK1C", "MK2A", "MK2B", "MK2C", "MK3A", "MK3B", "MK3C", "M-Kel A", "M-Kel B", "M-Kel C" };
 
@@ -33,6 +34,9 @@ namespace GalacticNeighborhoodPlugin
 
             PlanetariumCamera.fetch.targets.Clear();
             PlanetariumCamera.fetch.targets.AddRange(trackingstation);
+
+            // Fix initialTarget (Multiple Kerbin templates bug workaround)
+            Resources.FindObjectsOfTypeAll<PlanetariumCamera>().FirstOrDefault().initialTarget = Resources.FindObjectsOfTypeAll<ScaledMovement>().FirstOrDefault(o => o.celestialBody.isHomeWorld);
         }
     }
 }
