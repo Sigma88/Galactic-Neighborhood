@@ -1,3 +1,11 @@
+**v0.4.3**
+
+- Fix for multiple planets with Kerbin template
+- Added Sigma88LoadingScreens plugin
+- Fixed GPP compatibility
+- Fixed AlternisKerbolRekerjiggered compatibility
+
+
 **v0.4.2**
 
 - Added compatibility with Kopernicus v1.3.0-6
