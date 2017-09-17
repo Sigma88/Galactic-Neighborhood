@@ -6,3 +6,8 @@ All Rights Reserved
 
 For more info visit the KSP Forum Thread:
 http://forum.kerbalspaceprogram.com/index.php?/topic/116058-0
+
+
+
+Includes the Sigma88LoadingScreen plugin
+License: All Rights Reserved
