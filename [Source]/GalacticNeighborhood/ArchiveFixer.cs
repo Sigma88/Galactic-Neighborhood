@@ -33,7 +33,7 @@ namespace GalacticNeighborhoodPlugin
             }
 
             FieldInfo list = typeof(RDArchivesController).GetFields(BindingFlags.Instance | BindingFlags.NonPublic).Skip(7).First();
-            MethodInfo add = typeof(RDArchivesController).GetMethods(BindingFlags.Instance | BindingFlags.NonPublic).Skip(27).First();
+            MethodInfo add = typeof(RDArchivesController).GetMethods(BindingFlags.Instance | BindingFlags.NonPublic).Skip(26).First();
             var RDAC = Resources.FindObjectsOfTypeAll<RDArchivesController>().First();
 
             list.SetValue(RDAC, new Dictionary<string, List<RDArchivesController.Filter>>());
