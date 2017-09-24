@@ -6,7 +6,7 @@ using UnityEngine;
 namespace GalacticNeighborhoodPlugin
 {
     [KSPAddon(KSPAddon.Startup.MainMenu, true)]
-    public class TrackingStationFixer : MonoBehaviour
+    class TrackingStationFixer : MonoBehaviour
     {
         void Start()
         {
