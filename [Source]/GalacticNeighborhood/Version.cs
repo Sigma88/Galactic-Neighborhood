@@ -4,11 +4,12 @@
 namespace GalacticNeighborhoodPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
-    class Version : MonoBehaviour
+    public class Version : MonoBehaviour
     {
+        public static readonly string number = "v.0.4.4";
         void Awake()
         {
-            Debug.Log("[SigmaLog] Version Check:   Galactic Neighborhood v0.4.4");
+            Debug.Log("[SigmaLog] Version Check:   Galactic Neighborhood " + number);
         }
     }
 }
