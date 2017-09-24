@@ -8,7 +8,7 @@ namespace GalacticNeighborhoodPlugin
     {
         void Awake()
         {
-            Debug.Log("[SigmaLog] Version Check:   Galactic Neighborhood v0.4.3");
+            Debug.Log("[SigmaLog] Version Check:   Galactic Neighborhood v0.4.4");
         }
     }
 }
