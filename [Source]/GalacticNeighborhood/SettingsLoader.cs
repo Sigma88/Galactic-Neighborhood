@@ -1,8 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
+using UnityEngine;
 using Kopernicus;
 using Kopernicus.Configuration;
-using System;
-using System.Collections.Generic;
 
 
 namespace GalacticNeighborhoodPlugin
