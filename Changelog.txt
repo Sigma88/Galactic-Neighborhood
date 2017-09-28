@@ -1,6 +1,6 @@
 **v0.4.4**
 
-- Updated to Kopernicus 1.3.0-7
+- Updated to Kopernicus 1.3.0-8
 - Fixed science archives
 
 
