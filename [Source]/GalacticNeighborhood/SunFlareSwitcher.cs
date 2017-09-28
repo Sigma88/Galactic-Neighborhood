@@ -9,7 +9,7 @@ namespace GalacticNeighborhoodPlugin
     class SunFlareSwitcher : MonoBehaviour
     {
         static KopernicusStar activeStar = null;
-        public static Dictionary<string, Flare> activeFlares = new Dictionary<string, Flare>();
+        internal static Dictionary<string, Flare> activeFlares = new Dictionary<string, Flare>();
         static Flare oldFlare = null;
 
         void Awake()

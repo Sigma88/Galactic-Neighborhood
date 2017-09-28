@@ -9,5 +9,6 @@ http://forum.kerbalspaceprogram.com/index.php?/topic/116058-0
 
 
 
-Includes the Sigma88LoadingScreen plugin
+Includes the Sigma88LoadingScreens plugin.
 License: All Rights Reserved
+Source: https://github.com/Sigma88/Sigma-LoadingScreens
