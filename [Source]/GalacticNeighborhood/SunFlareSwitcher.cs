@@ -26,16 +26,16 @@ namespace GalacticNeighborhoodPlugin
             {
                 // Restore default sunFlare
                 if (activeStar != null && oldFlare != null)
-                    activeStar.sunFlare.flare = oldFlare;
+                    activeStar.lensFlare.sunFlare.flare = oldFlare;
 
                 // Select current activeStar
                 activeStar = KopernicusStar.Current;
 
                 // Backup default flare and load activeFlare
-                if (activeStar != null && activeStar.sunFlare != null)
+                if (activeStar != null && activeStar.lensFlare.sunFlare != null)
                 {
-                    oldFlare = activeStar.sunFlare.flare;
-                    activeStar.sunFlare.flare = activeFlares[activeStar.name];
+                    oldFlare = activeStar.lensFlare.sunFlare.flare;
+                    activeStar.lensFlare.sunFlare.flare = activeFlares[activeStar.name];
                 }
             }
         }
