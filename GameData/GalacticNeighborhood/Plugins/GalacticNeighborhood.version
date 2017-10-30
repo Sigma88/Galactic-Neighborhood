@@ -1,5 +1,5 @@
 {
-	"NAME": "<b><color=#7080FF>Galactic Neighborhood</color></b>",
+	"NAME": "<b><color=#9B59B6>Galactic Neighborhood</color></b>",
 	"URL": "https://raw.githubusercontent.com/Sigma88/Galactic-Neighborhood/master/GameData/GalacticNeighborhood/Plugins/GalacticNeighborhood.version",
 	"DOWNLOAD": "http://forum.kerbalspaceprogram.com/index.php?/topic/116058-0",
 	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/Sigma88/Galactic-Neighborhood/master/Changelog.txt",
@@ -13,7 +13,7 @@
 	{
 		"MAJOR": 0,
 		"MINOR": 4,
-		"PATCH": 5,
+		"PATCH": 6,
 		"BUILD": 0
 	},
 	"KSP_VERSION":
