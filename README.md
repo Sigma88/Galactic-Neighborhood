@@ -15,15 +15,15 @@ Dev version: https://github.com/Sigma88/Galactic-Neighborhood/tree/Development
 
 | | |Hypergiants|Supergiants|Bright giants|Giants|Subgiants|Dwarfs|Subdwarfs|White Dwarfs|
 |---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|<b><sub><sup>TOTAL</sup></sub><br>41&nbsp;</b>| |0|1|1|2|3|29|1|4|
+|<b><sub><sup>TOTAL</sup></sub><br>44&nbsp;</b>| |0|1|1|3|3|31|1|4|
 | | |**0**|**I**|**II**|**III**|**IV**|**V**|**VI**|**VII**|**
 |2|**O**| | | | |1|1| | |
 |4|**B**| | |1| | |3| | |
 |8|**A**| | | | | |4| |4|
 |3|**F**| |1| | |1|1| | |
-|7|**G**| | | | | |7| | |
-|7|**K**| | | |1|1|5| | |
-|9|**M<br><sub><sup>(RED)</sup></sub>**| | | |1| |7|1| |
+|8|**G**| | | | | |8| | |
+|8|**K**| | | |2|1|5| | |
+|10|**M<br><sub><sup>(RED)</sup></sub>**| | | |1| |8|1| |
 |1|**M<br><sub><sup>(BROWN)</sup></sub>**| | | | | |1| | |
 |0|**L**| | | | | | | | |
 |0|**T**| | | | | | | | |
