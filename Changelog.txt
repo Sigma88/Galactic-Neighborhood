@@ -1,3 +1,15 @@
+**v0.4.7**
+
+- Updated to Kopernicus 1.3.1-3
+- Updated to use Other_Worlds_Reboot instead of Other_Worlds
+- Added compatibility with After Kerbin
+- Added compatibility with Before Kerbin
+- Added compatibility with Suthe Planet Overhaul Mod
+- Added compatibility with Kolyphemus System
+- Fixed Grannus from GPP to match the style of all other stars
+- Added ambient light tweak to enhance darkness when in shadow
+
+
 **v0.4.6**
 
 - Fix for multiple planets with Kerbin template
