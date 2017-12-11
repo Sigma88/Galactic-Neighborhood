@@ -11,13 +11,11 @@ namespace GNAutoInstallerPlugin
 
         void Awake()
         {
-            Debug.Log("SigmaLog: Adding mod: OPM");
             Events.InstallMods.Add(Install);
         }
 
         void Install()
         {
-            Debug.Log("SigmaLog: Installing mod: OPM");
             // Install OPM
             archive = "PluginData/GalacticNeighborhood/OPM_Galileo.v1.2.4.zip";
 

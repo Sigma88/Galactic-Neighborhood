@@ -37,6 +37,8 @@
     <Compile Include="Archive.cs" />
     <Compile Include="Mods\GalileosPlanetPack.cs" />
     <Compile Include="Mods\OuterPlanetsMod.cs" />
+    <Compile Include="Mods\GameslinxsPlanetOverhaul.cs" />
+    <Compile Include="Mods\AlternisKerbolRekerjiggered.cs" />
     <Compile Include="Installer.cs" />
   </ItemGroup>
   <ItemGroup>

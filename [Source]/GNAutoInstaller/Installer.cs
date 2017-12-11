@@ -10,8 +10,7 @@ namespace GNAutoInstallerPlugin
         void Awake()
         {
             ZipConstants.DefaultCodePage = 0;
-
-            Debug.Log("SigmaLog: Installing added mods");
+            
             Events.InstallMods.Fire();
         }
 

@@ -12,13 +12,11 @@ namespace GNAutoInstallerPlugin
 
         void Awake()
         {
-            Debug.Log("SigmaLog: Adding mod: GPP");
             Events.InstallMods.Add(Install);
         }
         
         void Install()
         {
-            Debug.Log("SigmaLog: Installing mod: GPP");
             // Install GPP
             archive = "PluginData/GalacticNeighborhood/Galileos.Planet.Pack.1.5.88.zip";
             textures = "PluginData/GalacticNeighborhood/GPP_Textures-3.0.0.zip";
