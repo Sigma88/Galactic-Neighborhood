@@ -42,6 +42,8 @@
     <Compile Include="Mods\Kolyphemus.cs" />
     <Compile Include="Mods\OuterPlanetsMod.cs" />
     <Compile Include="Mods\Suthe.cs" />
+    <Compile Include="Mods\Kronkus.cs" />
+    <Compile Include="Mods\Asclepius.cs" />
     <Compile Include="Installer.cs" />
   </ItemGroup>
   <ItemGroup>
