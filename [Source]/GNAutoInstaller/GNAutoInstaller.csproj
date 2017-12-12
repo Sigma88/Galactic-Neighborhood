@@ -40,6 +40,7 @@
     <Compile Include="Mods\GameslinxsPlanetOverhaul.cs" />
     <Compile Include="Mods\AlternisKerbolRekerjiggered.cs" />
     <Compile Include="Mods\Kolyphemus.cs" />
+    <Compile Include="Mods\Suthe.cs" />
     <Compile Include="Installer.cs" />
   </ItemGroup>
   <ItemGroup>
