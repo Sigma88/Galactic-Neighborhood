@@ -14,7 +14,7 @@ namespace GNAutoInstallerPlugin
         {
             Events.InstallMods.Add(Install);
         }
-        
+
         void Install()
         {
             // Install GPP
