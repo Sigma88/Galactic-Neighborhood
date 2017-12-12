@@ -16,7 +16,7 @@ namespace GNAutoInstallerPlugin
 
         void Install()
         {
-            // Install GPP
+            // Install GPO
             archive = "PluginData/GalacticNeighborhood/Gameslinxs_Planet_Overhaul_Waiting_For_An_Update_That_Does_Not_Suck";
 
             if (File.Exists(archive) && !Directory.Exists("GameData/Olei/") && !Directory.Exists("GameData/Olei-Gaia/"))

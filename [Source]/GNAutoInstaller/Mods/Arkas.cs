@@ -16,7 +16,8 @@ namespace GNAutoInstallerPlugin
 
         void Install()
         {
-            // Install GPP
+            // Install Arkas
+            archive = "PluginData/GalacticNeighborhood/Arkas_Development_Edition-4.0.zip";
 
             if (File.Exists(archive) && !Directory.Exists("GameData/Arkas/"))
             {

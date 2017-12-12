@@ -16,7 +16,7 @@ namespace GNAutoInstallerPlugin
 
         void Install()
         {
-            // Install GPP
+            // Install Kolyphemus
             archive = "PluginData/GalacticNeighborhood/Kolyphemus_System-Beta1.zip";
 
             if (File.Exists(archive) && !Directory.Exists("GameData/Kolyphemus/"))
