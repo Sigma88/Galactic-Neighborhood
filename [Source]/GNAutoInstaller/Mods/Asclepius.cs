@@ -16,7 +16,7 @@ namespace GNAutoInstallerPlugin
 
         void Install()
         {
-            // Install GPP
+            // Install Asclepius
             archive = "PluginData/GalacticNeighborhood/AsclepiusV3-0.zip";
 
             if (File.Exists(archive) && !Directory.Exists("GameData/Asclepius/"))

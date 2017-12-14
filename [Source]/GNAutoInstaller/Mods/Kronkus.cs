@@ -16,7 +16,7 @@ namespace GNAutoInstallerPlugin
 
         void Install()
         {
-            // Install GPP
+            // Install Kronkus
             archive = "PluginData/GalacticNeighborhood/KronkusV1-3-4.zip";
 
             if (File.Exists(archive) && !Directory.Exists("GameData/Kronkus/"))
