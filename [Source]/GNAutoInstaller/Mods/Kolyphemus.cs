@@ -1,27 +1,19 @@
 ﻿using System.IO;
-using UnityEngine;
 
 
 namespace GNAutoInstallerPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
-    public class Kolyphemus : MonoBehaviour
+    class Kolyphemus : Pack<Kolyphemus>
     {
-        static string archive;
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/Kolyphemus_System-Beta1.zip"; } }
+        internal override string path { get { return "GameData/Kolyphemus/"; } }
 
-        void Awake()
+        internal override void Install()
         {
-            Events.InstallMods.Add(Install);
-        }
-
-        void Install()
-        {
-            // Install Kolyphemus
-            archive = "PluginData/GalacticNeighborhood/Kolyphemus_System-Beta1.zip";
-
-            if (File.Exists(archive) && !Directory.Exists("GameData/Kolyphemus/"))
+            if (!Directory.Exists(path))
             {
-                Archive.UnZip(archive, "Kolyphemus/", "GameData/Kolyphemus/");
+                Archive.UnZip(archive, "Kolyphemus/", path);
             }
         }
     }

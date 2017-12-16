@@ -5,7 +5,7 @@ using ICSharpCode.SharpZipLib.Zip;
 namespace GNAutoInstallerPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
-    public class Installer : MonoBehaviour
+    class Installer : MonoBehaviour
     {
         void Awake()
         {

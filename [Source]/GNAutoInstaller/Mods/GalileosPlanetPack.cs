@@ -1,48 +1,54 @@
 ﻿using System.IO;
-using UnityEngine;
 
 
 namespace GNAutoInstallerPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
-    public class GPP : MonoBehaviour
+    class GPP : Pack<GPP>
     {
-        static string archive;
-        static string textures;
-
-        void Awake()
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/Galileos.Planet.Pack.1.5.88.zip"; } }
+        internal override string path { get { return "GameData/GPP/"; } }
+        internal override string[] filter
         {
-            Events.InstallMods.Add(Install);
+            get
+            {
+                return new string[]
+                {
+                    path + "Agencies",
+                    path + "GPP_Configs",
+                    path + "GPP_KSC++",
+                    path + "GPP_Renamer",
+                    path + "GPP_Replacements",
+                    path + "GPP_Scatterer",
+                    path + "GPP_Skybox",
+                    path + "GPP_SuitProgression",
+                    path + "GPP_WaterLaunch",
+                    path + "GPP_Skybox",
+                    path + "LoadingScreens",
+                    path + "GPP_KSPedia.ksp",
+                    path + "MiniAVC.dll"
+                };
+            }
+        }
+        static string textures = "PluginData/GalacticNeighborhood/GPP_Textures-3.0.0.zip";
+
+        internal override bool Check()
+        {
+            if (!Directory.Exists(path))
+            {
+                return File.Exists(archive) && File.Exists(textures);
+            }
+
+            return true;
         }
 
-        void Install()
+        internal override void Install()
         {
-            // Install GPP
-            archive = "PluginData/GalacticNeighborhood/Galileos.Planet.Pack.1.5.88.zip";
-            textures = "PluginData/GalacticNeighborhood/GPP_Textures-3.0.0.zip";
-
-            if (File.Exists(archive) && File.Exists(textures) && !Directory.Exists("GameData/GPP/"))
+            if (!Directory.Exists(path))
             {
-                string[] filter = new string[]
-                {
-                    "GameData/GPP/Agencies",
-                    "GameData/GPP/GPP_Configs",
-                    "GameData/GPP/GPP_KSC++",
-                    "GameData/GPP/GPP_Renamer",
-                    "GameData/GPP/GPP_Replacements",
-                    "GameData/GPP/GPP_Scatterer",
-                    "GameData/GPP/GPP_Skybox",
-                    "GameData/GPP/GPP_SuitProgression",
-                    "GameData/GPP/GPP_WaterLaunch",
-                    "GameData/GPP/GPP_Skybox",
-                    "GameData/GPP/LoadingScreens",
-                    "GameData/GPP/GPP_KSPedia.ksp",
-                    "GameData/GPP/MiniAVC.dll"
-                };
-
-                Archive.UnZip(archive, "GameData/GPP/", "GameData/GPP/", filter);
-                Archive.UnZip(archive, "GameData/GPP/GPP_Configs/GPP_KopernicusSettings.cfg", "GameData/GPP/GPP_Configs/GPP_KopernicusSettings.cfg");
-                Archive.UnZip(textures, "GameData/GPP/GPP_Textures/", "GameData/GPP/GPP_Textures/");
+                Archive.UnZip(archive, path, path, filter);
+                Archive.UnZip(archive, path + "GPP_Configs/GPP_KopernicusSettings.cfg", path + "GPP_Configs/GPP_KopernicusSettings.cfg");
+                Archive.UnZip(textures, path + "GPP_Textures/", path + "GPP_Textures/");
             }
         }
     }

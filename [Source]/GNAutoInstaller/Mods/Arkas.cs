@@ -1,28 +1,20 @@
 ﻿using System.IO;
-using UnityEngine;
 
 
 namespace GNAutoInstallerPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
-    public class Arkas : MonoBehaviour
+    class Arkas : Pack<Arkas>
     {
-        static string archive;
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/Arkas_Development_Edition-4.0.zip"; } }
+        internal override string path { get { return "GameData/Arkas/"; } }
 
-        void Awake()
+        internal override void Install()
         {
-            Events.InstallMods.Add(Install);
-        }
-
-        void Install()
-        {
-            // Install Arkas
-            archive = "PluginData/GalacticNeighborhood/Arkas_Development_Edition-4.0.zip";
-
-            if (File.Exists(archive) && !Directory.Exists("GameData/Arkas/"))
+            if (!Directory.Exists(path))
             {
-                Archive.UnZip(archive, "Files/Mod/Arkas/", "GameData/Arkas/");
-                Archive.UnZip(archive, "Files/Mod/Moons/", "GameData/Arkas/Expansions/");
+                Archive.UnZip(archive, "Files/Mod/Arkas/", path);
+                Archive.UnZip(archive, "Files/Mod/Moons/", path + "Expansions/");
             }
         }
     }

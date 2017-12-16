@@ -1,36 +1,22 @@
-﻿using System.IO;
-using UnityEngine;
-
-
-namespace GNAutoInstallerPlugin
+﻿namespace GNAutoInstallerPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
-    public class AKR : MonoBehaviour
+    class AKR : Pack<AKR>
     {
-        static string archive;
-
-        void Awake()
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/AlternisKerbolRekerjiggered2.2.0.zip"; } }
+        internal override string path { get { return "GameData/AlternisKerbolRekerjiggered/"; } }
+        internal override string[] filter
         {
-            Events.InstallMods.Add(Install);
-        }
-
-        void Install()
-        {
-            // Install AKR
-            archive = "PluginData/GalacticNeighborhood/AlternisKerbolRekerjiggered2.2.0.zip";
-
-            if (File.Exists(archive) && !Directory.Exists("GameData/AlternisKerbolRekerjiggered/"))
+            get
             {
-                string[] filter = new string[]
+                return new string[]
                 {
-                    "GameData/AlternisKerbolRekerjiggered/ModCompatibility/EVE_Clouds/",
-                    "GameData/AlternisKerbolRekerjiggered/ModCompatibility/PlanetPackCompatibility",
-                    "GameData/AlternisKerbolRekerjiggered/ModCompatibility/PluginData",
-                    "GameData/AlternisKerbolRekerjiggered/ModCompatibility/Kronometer.cfg",
-                    "GameData/AlternisKerbolRekerjiggered/ModCompatibility/SLIPPIST-1.cfg"
+                    path + "ModCompatibility/EVE_Clouds/",
+                    path + "ModCompatibility/PlanetPackCompatibility",
+                    path + "ModCompatibility/PluginData",
+                    path + "ModCompatibility/Kronometer.cfg",
+                    path + "ModCompatibility/SLIPPIST-1.cfg"
                 };
-
-                Archive.UnZip(archive, "GameData/AlternisKerbolRekerjiggered/", "GameData/AlternisKerbolRekerjiggered/", filter);
             }
         }
     }

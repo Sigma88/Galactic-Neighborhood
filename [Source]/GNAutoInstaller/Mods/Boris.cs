@@ -1,28 +1,9 @@
-﻿using System.IO;
-using UnityEngine;
-
-
-namespace GNAutoInstallerPlugin
+﻿namespace GNAutoInstallerPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
-    public class Boris : MonoBehaviour
+    class Boris : Pack<Boris>
     {
-        static string archive;
-
-        void Awake()
-        {
-            Events.InstallMods.Add(Install);
-        }
-
-        void Install()
-        {
-            // Install Boris
-            archive = "PluginData/GalacticNeighborhood/BorisSystem.v0.5.zip";
-
-            if (File.Exists(archive) && !Directory.Exists("GameData/PFSystems/"))
-            {
-                Archive.UnZip(archive, "GameData/PFSystems/", "GameData/PFSystems/");
-            }
-        }
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/BorisSystem.v0.5.zip"; } }
+        internal override string path { get { return "GameData/PFSystems/"; } }
     }
 }

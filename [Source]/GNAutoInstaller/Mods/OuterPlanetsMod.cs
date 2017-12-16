@@ -1,30 +1,22 @@
 ﻿using System.IO;
-using UnityEngine;
 
 
 namespace GNAutoInstallerPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
-    public class OPM : MonoBehaviour
+    class OPM : Pack<OPM>
     {
-        static string archive;
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/OPM_Galileo.v1.2.4.zip"; } }
+        internal override string path { get { return "GameData/OPM/"; } }
 
-        void Awake()
+        internal override void Install()
         {
-            Events.InstallMods.Add(Install);
-        }
-
-        void Install()
-        {
-            // Install OPM
-            archive = "PluginData/GalacticNeighborhood/OPM_Galileo.v1.2.4.zip";
-
-            if (File.Exists(archive) && !Directory.Exists("GameData/OPM/"))
+            if (!Directory.Exists(path))
             {
-                Archive.UnZip(archive, "GameData/OPM/KopernicusConfigs/", "GameData/OPM/KopernicusConfigs/");
-                Archive.UnZip(archive, "GameData/OPM/Localization/", "GameData/OPM/Localization/");
-                Archive.UnZip(archive, "GameData/OPM/OPM_Textures/", "GameData/OPM/OPM_Textures/");
-                Archive.UnZip(archive, "GameData/OPM/OuterPlanetsMod-Galileo.version", "GameData/OPM/OuterPlanetsMod-Galileo.version");
+                Archive.UnZip(archive, path + "KopernicusConfigs/", path + "KopernicusConfigs/");
+                Archive.UnZip(archive, path + "Localization/", path + "Localization/");
+                Archive.UnZip(archive, path + "OPM_Textures/", path + "OPM_Textures/");
+                Archive.UnZip(archive, path + "OuterPlanetsMod-Galileo.version", path + "OuterPlanetsMod-Galileo.version");
                 if (!Directory.Exists("GameData/CTTP/")) Archive.UnZip(archive, "GameData/CTTP/", "GameData/CTTP/");
             }
         }

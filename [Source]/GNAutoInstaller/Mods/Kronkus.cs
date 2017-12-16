@@ -1,27 +1,19 @@
 ﻿using System.IO;
-using UnityEngine;
 
 
 namespace GNAutoInstallerPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
-    public class Kronkus : MonoBehaviour
+    class Kronkus : Pack<Kronkus>
     {
-        static string archive;
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/KronkusV1-3-4.zip"; } }
+        internal override string path { get { return "GameData/Kronkus/"; } }
 
-        void Awake()
+        internal override void Install()
         {
-            Events.InstallMods.Add(Install);
-        }
-
-        void Install()
-        {
-            // Install Kronkus
-            archive = "PluginData/GalacticNeighborhood/KronkusV1-3-4.zip";
-
-            if (File.Exists(archive) && !Directory.Exists("GameData/Kronkus/"))
+            if (!Directory.Exists(path))
             {
-                Archive.UnZip(archive, "GameData/Kronkus/", "GameData/Kronkus/");
+                Archive.UnZip(archive, path, path);
                 Archive.UnZip(archive, "GameData/Spud/", "GameData/Spud/");
             }
         }

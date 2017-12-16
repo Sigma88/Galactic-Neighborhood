@@ -1,34 +1,31 @@
 ﻿using System.IO;
-using UnityEngine;
 
 
 namespace GNAutoInstallerPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
-    public class Suthe : MonoBehaviour
+    class Suthe : Pack<Suthe>
     {
-        static string archive;
-
-        void Awake()
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/Suthe_Solar_System_Overhaul_Mod-1.9.4.zip"; } }
+        internal override string path { get { return "GameData/Suthe/"; } }
+        internal override string[] filter
         {
-            Events.InstallMods.Add(Install);
-        }
-
-        void Install()
-        {
-            // Install Suthe
-            archive = "PluginData/GalacticNeighborhood/Suthe_Solar_System_Overhaul_Mod-1.9.4.zip";
-
-            if (File.Exists(archive) && !Directory.Exists("GameData/Suthe/"))
+            get
             {
-                string[] filter = new string[]
+                return new string[]
                 {
                     "SutheMod/GameData/Suthe/COMPATIBILITYPATCHES/CustomAsteroids/",
                     "SutheMod/GameData/Suthe/COMPATIBILITYPATCHES/EVE/",
                     "SutheMod/GameData/Suthe/COMPATIBILITYPATCHES/Scatterer/"
                 };
+            }
+        }
 
-                Archive.UnZip(archive, "SutheMod/GameData/Suthe/", "GameData/Suthe/", filter);
+        internal override void Install()
+        {
+            if (!Directory.Exists(path))
+            {
+                Archive.UnZip(archive, "SutheMod/GameData/Suthe/", path, filter);
             }
         }
     }

@@ -1,37 +1,36 @@
 ﻿using System.IO;
-using UnityEngine;
 
 
 namespace GNAutoInstallerPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
-    public class GPO : MonoBehaviour
+    class GPO : Pack<GPO>
     {
-        static string archive;
-
-        void Awake()
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/Gameslinxs_Planet_Overhaul_Waiting_For_An_Update_That_Does_Not_Suck"; } }
+        internal override string path { get { return "GameData/Olei/"; } }
+        internal override string[] filter
         {
-            Events.InstallMods.Add(Install);
+            get
+            {
+                return new string[]
+                {
+                    path + "EVE/",
+                    path + "LSM/",
+                    path + "Skybox/",
+                    path + "GPO_"
+                };
+            }
         }
 
-        void Install()
+        internal override void Install()
         {
-            // Install GPO
-            archive = "PluginData/GalacticNeighborhood/Gameslinxs_Planet_Overhaul_Waiting_For_An_Update_That_Does_Not_Suck";
-
-            if (File.Exists(archive) && !Directory.Exists("GameData/Olei/") && !Directory.Exists("GameData/Olei-Gaia/"))
+            if (!Directory.Exists(path))
             {
-                string[] filter = new string[]
-                {
-                    "GameData/Olei/EVE/",
-                    "GameData/Olei/LSM/",
-                    "GameData/Olei/Skybox",
-                    "GameData/Olei/GPO_",
-                    "GameData/Olei-Gaia/EVE/"
-                };
+                Archive.UnZip(archive, path, path, filter);
 
-                Archive.UnZip(archive, "GameData/Olei/", "GameData/Olei/", filter);
-                Archive.UnZip(archive, "GameData/Olei-Gaia/", "GameData/Olei-Gaia/", filter);
+                string gaia = "GameData/Olei-Gaia/";
+                if (!Directory.Exists(gaia)) Archive.UnZip(archive, gaia, gaia, new[] { "GameData/Olei-Gaia/EVE/" });
+
                 if (!Directory.Exists("GameData/CTTP/")) Archive.UnZip(archive, "GameData/CTTP/", "GameData/CTTP/");
             }
         }
