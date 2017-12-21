@@ -71,6 +71,7 @@
     <Compile Include="Mods\TransKeptunian.cs" />
     <Compile Include="Mods\UnchartedLands.cs" />
     <Compile Include="Mods\Urania.cs" />
+    <Compile Include="Mods\WhirligigWorld.cs" />
     <Compile Include="Installer.cs" />
   </ItemGroup>
   <ItemGroup>
