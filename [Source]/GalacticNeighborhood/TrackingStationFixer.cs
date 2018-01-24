@@ -12,7 +12,7 @@ namespace GalacticNeighborhoodPlugin
         {
             // Remove barycenters from the tracking station
             List<MapObject> trackingstation = new List<MapObject>();
-            string[] hide = { "MK1A", "MK1B", "MK1C", "MK2A", "MK2B", "MK2C", "MK3A", "MK3B", "MK3C", "M-Kel A", "M-Kel B", "M-Kel C" };
+            string[] hide = { "MK1A", "MK1B", "MK1C", "MK2A", "MK2B", "MK2C", "MK3A", "MK3B", "MK3C", "MKelA", "MKelB", "MKelC" };
 
             foreach (MapObject m in PlanetariumCamera.fetch.targets)
             {
@@ -22,9 +22,9 @@ namespace GalacticNeighborhoodPlugin
                     {
                         trackingstation.Add(m);
                     }
-                    if (m.celestialBody.transform.name == "M-Kel")
+                    if (m.celestialBody.transform.name == "MKel")
                     {
-                        foreach (string c in new[] { "M-Kel A", "M-Kel B", "M-Kel C" })
+                        foreach (string c in new[] { "MKelA", "MKelB", "MKelC" })
                         {
                             trackingstation.Add(PlanetariumCamera.fetch.targets.Find(obj => obj?.celestialBody?.transform?.name == c));
                         }
