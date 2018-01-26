@@ -37,6 +37,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Mods\[Pack].cs" />
     <Compile Include="Mods\[SD].cs" />
+    <Compile Include="Mods\[CTTP].cs" />
     <Compile Include="Mods\Almost.cs" />
     <Compile Include="Mods\AlternisKerbolRekerjiggered.cs" />
     <Compile Include="Mods\Arkas.cs" />
