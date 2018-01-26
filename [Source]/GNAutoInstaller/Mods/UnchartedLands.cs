@@ -11,6 +11,8 @@
             {
                 return new string[]
                 {
+                    path + "Planet Pack Files/",
+                    path + "SciDefs/",
                     path + "AsteroidSpawns.cfg",
                     path + "UL_RemoteTech.cfg"
                 };
