@@ -6,7 +6,7 @@ namespace GNAutoInstallerPlugin
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     class GPP : Pack<GPP>
     {
-        internal override string archive { get { return "PluginData/GalacticNeighborhood/Galileos.Planet.Pack.1.5.88.zip"; } }
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/Galileos-Planet-Pack-1.6.0.1.zip"; } }
         internal override string path { get { return "GameData/GPP/"; } }
         internal override string[] filter
         {
@@ -16,6 +16,7 @@ namespace GNAutoInstallerPlugin
                 {
                     path + "Agencies",
                     path + "GPP_Configs",
+                    path + "GPP_InstallationChecker",
                     path + "GPP_KSC++",
                     path + "GPP_Renamer",
                     path + "GPP_Replacements",
@@ -30,7 +31,7 @@ namespace GNAutoInstallerPlugin
                 };
             }
         }
-        static string textures = "PluginData/GalacticNeighborhood/GPP_Textures-3.0.0.zip";
+        static string textures = "PluginData/GalacticNeighborhood/GPP_Textures-4.0.0.zip";
 
         internal override bool Check()
         {
