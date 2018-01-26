@@ -38,10 +38,12 @@
     <Compile Include="Mods\[Pack].cs" />
     <Compile Include="Mods\[SD].cs" />
     <Compile Include="Mods\[CTTP].cs" />
+    <Compile Include="Mods\AfterKerbin.cs" />
     <Compile Include="Mods\Almost.cs" />
     <Compile Include="Mods\AlternisKerbolRekerjiggered.cs" />
     <Compile Include="Mods\Arkas.cs" />
     <Compile Include="Mods\Asclepius.cs" />
+    <Compile Include="Mods\BeforeKerbin.cs" />
     <Compile Include="Mods\Boris.cs" />
     <Compile Include="Mods\Chani.cs" />
     <Compile Include="Mods\DRP.cs" />
