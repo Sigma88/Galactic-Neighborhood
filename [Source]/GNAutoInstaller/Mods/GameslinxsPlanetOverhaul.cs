@@ -33,7 +33,7 @@ namespace GNAutoInstallerPlugin
                 string gaia = "GameData/Olei-Gaia/";
                 if (!Directory.Exists(gaia)) Archive.UnZip(archive, gaia, gaia, new[] { "GameData/Olei-Gaia/EVE/" });
                 
-                CTTP.Mod.Install();
+                CTTP.Install();
             }
         }
     }

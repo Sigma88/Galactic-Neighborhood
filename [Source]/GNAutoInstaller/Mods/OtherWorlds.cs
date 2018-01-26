@@ -24,7 +24,7 @@ namespace GNAutoInstallerPlugin
         {
             if (Directory.Exists(path)) return true;
 
-            return File.Exists(archive) && CTTP.Mod.Check();
+            return File.Exists(archive) && CTTP.Check();
         }
 
         internal override void Install()
@@ -33,7 +33,7 @@ namespace GNAutoInstallerPlugin
             {
                 Archive.UnZip(archive, "OtherWorldsReboot/", path);
 
-                CTTP.Mod.Install();
+                CTTP.Install();
             }
         }
     }

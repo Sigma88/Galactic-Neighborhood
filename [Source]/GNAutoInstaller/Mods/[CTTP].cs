@@ -4,18 +4,18 @@
 namespace GNAutoInstallerPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
-    class CTTP : Pack<CTTP>
+    class CTTP
     {
-        internal override string archive { get { return "PluginData/GalacticNeighborhood/CTTP.v1.0.1.zip"; } }
-        internal override string path { get { return "GameData/CTTP/"; } }
+        static string archive { get { return "PluginData/GalacticNeighborhood/CTTP.v1.0.1.zip"; } }
+        static string path { get { return "GameData/CTTP/"; } }
 
-        internal override bool Check()
+        internal static bool Check()
         {
             if (Directory.Exists(path)) return true;
-            return File.Exists(archive) || File.Exists(OPM.Mod.archive) || File.Exists(GPO.Mod.archive);
+            return File.Exists(archive) || File.Exists(AfterKerbin.Mod.archive) || File.Exists(BeforeKerbin.Mod.archive) || File.Exists(GPO.Mod.archive) || File.Exists(OPM.Mod.archive);
         }
 
-        internal override void Install()
+        internal static void Install()
         {
             if (!Directory.Exists(path))
             {
@@ -26,9 +26,16 @@ namespace GNAutoInstallerPlugin
 
                 else
 
-                if (File.Exists(OPM.Mod.archive))
+                if (File.Exists(AfterKerbin.Mod.archive))
                 {
-                    Archive.UnZip(OPM.Mod.archive, path, path);
+                    Archive.UnZip(AfterKerbin.Mod.archive, "CTTP/", path);
+                }
+
+                else
+
+                if (File.Exists(BeforeKerbin.Mod.archive))
+                {
+                    Archive.UnZip(BeforeKerbin.Mod.archive, path, path);
                 }
 
                 else
@@ -36,6 +43,13 @@ namespace GNAutoInstallerPlugin
                 if (File.Exists(GPO.Mod.archive))
                 {
                     Archive.UnZip(GPO.Mod.archive, path, path);
+                }
+
+                else
+
+                if (File.Exists(OPM.Mod.archive))
+                {
+                    Archive.UnZip(OPM.Mod.archive, path, path);
                 }
             }
         }
