@@ -17,7 +17,8 @@ namespace GNAutoInstallerPlugin
                 Archive.UnZip(archive, path + "Localization/", path + "Localization/");
                 Archive.UnZip(archive, path + "OPM_Textures/", path + "OPM_Textures/");
                 Archive.UnZip(archive, path + "OuterPlanetsMod-Galileo.version", path + "OuterPlanetsMod-Galileo.version");
-                if (!Directory.Exists("GameData/CTTP/")) Archive.UnZip(archive, "GameData/CTTP/", "GameData/CTTP/");
+
+                CTTP.Mod.Install();
             }
         }
     }
