@@ -4,7 +4,7 @@
 namespace GNAutoInstallerPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
-    class WhirligigWorld : Pack<NewHorizons>
+    class WhirligigWorld : Pack<WhirligigWorld>
     {
         internal override string archive { get { return "PluginData/GalacticNeighborhood/WhirligigWorld.zip"; } }
         internal override string path { get { return "GameData/WhirligigWorld/"; } }
