@@ -50,6 +50,7 @@
     <Compile Include="Mods\Farlo.cs" />
     <Compile Include="Mods\GalileosPlanetPack.cs" />
     <Compile Include="Mods\GameslinxsPlanetOverhaul.cs" />
+    <Compile Include="Mods\GrannusExpansionPack.cs" />
     <Compile Include="Mods\Jungis.cs" />
     <Compile Include="Mods\Keridani.cs" />
     <Compile Include="Mods\Kolyphemus.cs" />
