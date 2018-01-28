@@ -6,20 +6,22 @@ namespace GNAutoInstallerPlugin
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     class GPO : Pack<GPO>
     {
-        internal static string[] textures { get { return new string[] { "PluginData/GalacticNeighborhood/Gameslinxs_Planet_Overhaul_Waiting_For_An_Update_That_Does_Not_Suck", "GameData/CTTP/" }; } }
-
-        internal override string archive { get { return textures[0]; } }
-        internal override string path { get { return "GameData/Olei/"; } }
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/Gameslinxs_Planet_Overhaul_Stockalike_Planet_Pack-3.0.1.zip"; } }
+        internal override string path { get { return "GameData/GPO/"; } }
         internal override string[] filter
         {
             get
             {
                 return new string[]
                 {
+                    path + "Configs/FixPQS.cfg",
                     path + "EVE/",
                     path + "LSM/",
-                    path + "Skybox/",
-                    path + "GPO_"
+                    path + "scatterer/",
+                    path + "GPO_RemoteTech.cfg",
+                    path + "GPO_Scatterer.cfg",
+                    path + "GPO_Scatterer_Settings.cfg",
+                    path + "GPO_Science Balance Pass.cfg"
                 };
             }
         }
@@ -30,9 +32,69 @@ namespace GNAutoInstallerPlugin
             {
                 Archive.UnZip(archive, path, path, filter);
 
-                string gaia = "GameData/Olei-Gaia/";
-                if (!Directory.Exists(gaia)) Archive.UnZip(archive, gaia, gaia, new[] { "GameData/Olei-Gaia/EVE/" });
-                
+                string file = "Configs/Teloslate.cfg";
+
+                string[] fix = File.ReadAllLines(path + file);
+                fix[0] = "@Kopernicus:FOR[GPO]";
+                File.Delete(path + file);
+                File.WriteAllLines(path + file, fix);
+
+
+                file = "Configs/Quarta.cfg";
+
+                fix = File.ReadAllLines(path + file);
+                fix[0] = "@Kopernicus:FOR[GPO]";
+                File.Delete(path + file);
+                File.WriteAllLines(path + file, fix);
+
+
+                file = "Configs/Olemut.cfg";
+
+                fix = File.ReadAllLines(path + file);
+                fix[0] = "@Kopernicus:FOR[GPO]";
+                File.Delete(path + file);
+                File.WriteAllLines(path + file, fix);
+
+
+                file = "Configs/Kibbos.cfg";
+
+                fix = File.ReadAllLines(path + file);
+                fix[0] = "@Kopernicus:FOR[GPO]";
+                File.Delete(path + file);
+                File.WriteAllLines(path + file, fix);
+
+
+                file = "Configs/Gullis.cfg";
+
+                fix = File.ReadAllLines(path + file);
+                fix[0] = "@Kopernicus:FOR[GPO]";
+                File.Delete(path + file);
+                File.WriteAllLines(path + file, fix);
+
+
+                file = "Configs/Golden.cfg";
+
+                fix = File.ReadAllLines(path + file);
+                fix[0] = "@Kopernicus:FOR[GPO]";
+                File.Delete(path + file);
+                File.WriteAllLines(path + file, fix);
+
+
+                file = "Configs/Gol.cfg";
+
+                fix = File.ReadAllLines(path + file);
+                fix[0] = "@Kopernicus:FOR[GPO]";
+                File.Delete(path + file);
+                File.WriteAllLines(path + file, fix);
+
+
+                file = "Configs/Dread.cfg";
+
+                fix = File.ReadAllLines(path + file);
+                fix[0] = "@Kopernicus:FOR[GPO]";
+                File.Delete(path + file);
+                File.WriteAllLines(path + file, fix);
+
                 CTTP.Install();
             }
         }
