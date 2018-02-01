@@ -4,8 +4,9 @@
 - Updated to use Other_Worlds_Reboot instead of Other_Worlds
 - Added compatibility with After Kerbin
 - Added compatibility with Before Kerbin
-- Added compatibility with Suthe Planet Overhaul Mod
+- Added compatibility with Grannus Expansion Pack
 - Added compatibility with Kolyphemus System
+- Added compatibility with Suthe Planet Overhaul Mod
 - Fixed Grannus from GPP to match the style of all other stars
 - Added ambient light tweak to enhance darkness when in shadow
 
