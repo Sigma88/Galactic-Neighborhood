@@ -31,10 +31,15 @@ namespace GNAutoInstallerPlugin
             {
                 Archive.UnZip(archive, path, path, filter);
 
-                string[] atlas = File.ReadAllLines(path + "Configs/Atlas.cfg");
-                atlas[0] = "@Kopernicus:FOR[BK]";
+                string[] file = File.ReadAllLines(path + "Configs/Atlas.cfg");
+                file[0] = "@Kopernicus:FOR[BK]";
                 File.Delete(path + "Configs/Atlas.cfg");
-                File.WriteAllLines(path + "Configs/Atlas.cfg", atlas);
+                File.WriteAllLines(path + "Configs/Atlas.cfg", file);
+
+                file = File.ReadAllLines(path + "Configs/Eden.cfg");
+                file[0] = "@Kopernicus:FOR[BK]";
+                File.Delete(path + "Configs/Eden.cfg");
+                File.WriteAllLines(path + "Configs/Eden.cfg", file);
 
                 CTTP.Install();
             }
