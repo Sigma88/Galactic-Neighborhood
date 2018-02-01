@@ -28,7 +28,7 @@ namespace GNAutoInstallerPlugin
 
                 if (File.Exists(AfterKerbin.Mod.archive))
                 {
-                    Archive.UnZip(AfterKerbin.Mod.archive, "CTTP/", path);
+                    Archive.UnZip(AfterKerbin.Mod.archive, path, path);
                 }
 
                 else
