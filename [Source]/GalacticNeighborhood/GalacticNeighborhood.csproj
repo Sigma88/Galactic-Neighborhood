@@ -31,6 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AmbientLight.cs" />
     <Compile Include="NodeRemover.cs" />
     <Compile Include="ProceduralStars.cs" />
     <Compile Include="SettingsLoader.cs" />
@@ -52,7 +53,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\[References]\Kopernicus\Kopernicus.Components.dll</HintPath>
     </Reference>
-    <Reference Include="Kopernicus.Parser">
+    <Reference Include="Kopernicus.Parser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\[References]\Kopernicus\Kopernicus.Parser.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
