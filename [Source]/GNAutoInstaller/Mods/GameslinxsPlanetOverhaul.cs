@@ -32,69 +32,6 @@ namespace GNAutoInstallerPlugin
             {
                 Archive.UnZip(archive, path, path, filter);
 
-                string file = "Configs/Teloslate.cfg";
-
-                string[] fix = File.ReadAllLines(path + file);
-                fix[0] = "@Kopernicus:FOR[GPO]";
-                File.Delete(path + file);
-                File.WriteAllLines(path + file, fix);
-
-
-                file = "Configs/Quarta.cfg";
-
-                fix = File.ReadAllLines(path + file);
-                fix[0] = "@Kopernicus:FOR[GPO]";
-                File.Delete(path + file);
-                File.WriteAllLines(path + file, fix);
-
-
-                file = "Configs/Olemut.cfg";
-
-                fix = File.ReadAllLines(path + file);
-                fix[0] = "@Kopernicus:FOR[GPO]";
-                File.Delete(path + file);
-                File.WriteAllLines(path + file, fix);
-
-
-                file = "Configs/Kibbos.cfg";
-
-                fix = File.ReadAllLines(path + file);
-                fix[0] = "@Kopernicus:FOR[GPO]";
-                File.Delete(path + file);
-                File.WriteAllLines(path + file, fix);
-
-
-                file = "Configs/Gullis.cfg";
-
-                fix = File.ReadAllLines(path + file);
-                fix[0] = "@Kopernicus:FOR[GPO]";
-                File.Delete(path + file);
-                File.WriteAllLines(path + file, fix);
-
-
-                file = "Configs/Golden.cfg";
-
-                fix = File.ReadAllLines(path + file);
-                fix[0] = "@Kopernicus:FOR[GPO]";
-                File.Delete(path + file);
-                File.WriteAllLines(path + file, fix);
-
-
-                file = "Configs/Gol.cfg";
-
-                fix = File.ReadAllLines(path + file);
-                fix[0] = "@Kopernicus:FOR[GPO]";
-                File.Delete(path + file);
-                File.WriteAllLines(path + file, fix);
-
-
-                file = "Configs/Dread.cfg";
-
-                fix = File.ReadAllLines(path + file);
-                fix[0] = "@Kopernicus:FOR[GPO]";
-                File.Delete(path + file);
-                File.WriteAllLines(path + file, fix);
-
                 CTTP.Install();
             }
         }
