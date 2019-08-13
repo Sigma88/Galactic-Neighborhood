@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
-using Kopernicus;
-using Kopernicus.Configuration;
 using Kopernicus.Components;
+using Kopernicus.ConfigParser.Attributes;
+using Kopernicus.ConfigParser.BuiltinTypeParsers;
+using Kopernicus.ConfigParser.Interfaces;
+using Kopernicus.Configuration.Parsing;
 
 
 namespace GalacticNeighborhoodPlugin
@@ -9,40 +11,40 @@ namespace GalacticNeighborhoodPlugin
     [ParserTargetExternal("Body", "ProceduralStar", "Kopernicus")]
     public class ProceduralStar : BaseLoader, IParserEventSubscriber
     {
-        [ParserTarget("type", optional = true)]
+        [ParserTarget("type", Optional = true)]
         public EnumParser<StarType> type = StarType.MainSequence;
 
-        [ParserTarget("temperature", optional = true)]
+        [ParserTarget("temperature", Optional = true)]
         public NumericParser<int> temperature = 5772;
 
-        [ParserTarget("emitColor0", optional = true)]
+        [ParserTarget("emitColor0", Optional = true)]
         public Texture2DParser emitColor0;
 
-        [ParserTarget("emitColor1", optional = true)]
+        [ParserTarget("emitColor1", Optional = true)]
         public Texture2DParser emitColor1;
 
-        [ParserTarget("emitColorMult", optional = true)]
+        [ParserTarget("emitColorMult", Optional = true)]
         public NumericParser<float> emitColorMult;
 
-        [ParserTarget("sunspotColor", optional = true)]
+        [ParserTarget("sunspotColor", Optional = true)]
         public Texture2DParser sunspotColor;
 
-        [ParserTarget("sunspotTemp", optional = true)]
+        [ParserTarget("sunspotTemp", Optional = true)]
         public NumericParser<int> sunspotTemp;
 
-        [ParserTarget("sunspotColorMult", optional = true)]
+        [ParserTarget("sunspotColorMult", Optional = true)]
         public NumericParser<float> sunspotColorMult = 1;
 
-        [ParserTarget("lightColor", optional = true)]
+        [ParserTarget("lightColor", Optional = true)]
         public Texture2DParser lightColors;
 
-        [ParserTarget("lightColorMult", optional = true)]
+        [ParserTarget("lightColorMult", Optional = true)]
         public NumericParser<float> lightColorMult = 1;
 
-        [ParserTarget("rimColorMult", optional = true)]
+        [ParserTarget("rimColorMult", Optional = true)]
         public NumericParser<float> rimColorMult;
 
-        [ParserTarget("setOrbit", optional = true)]
+        [ParserTarget("setOrbit", Optional = true)]
         public NumericParser<bool> setOrbit = true;
 
         void IParserEventSubscriber.Apply(ConfigNode node)
@@ -56,7 +58,7 @@ namespace GalacticNeighborhoodPlugin
 
             if (material != null)
             {
-                if (emitColor0?.value != null)
+                if (emitColor0?.Value != null)
                 {
                     Color color = Pick(emitColor0);
 
@@ -99,14 +101,14 @@ namespace GalacticNeighborhoodPlugin
                 Color color = Pick(lightColors) * lightColorMult;
 
                 light.ambientLightColor = new Color(0, 0, 0, 1);
-                light.IVASunColor = color;
+                light.ivaSunColor = color;
                 light.scaledSunlightColor = color;
                 light.sunlightColor = color;
             }
 
 
             // Set Orbit Color
-            if (setOrbit.value && emitColor0 != null)
+            if (setOrbit.Value && emitColor0 != null)
                 generatedBody.orbitRenderer.SetColor(Pick(emitColor0));
         }
 
