@@ -3,7 +3,7 @@
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     class Origins : Pack<Origins>
     {
-        internal override string archive { get { return "PluginData/GalacticNeighborhood/Kerbol_Origins-v.0.4.7.5.zip"; } }
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/Kerbol_Origins-v.0.4.9.zip"; } }
         internal override string path { get { return "GameData/KerbolOrigins/"; } }
         internal override string[] filter
         {
