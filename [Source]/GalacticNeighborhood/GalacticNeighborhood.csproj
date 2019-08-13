@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AmbientLight.cs" />
+    <Compile Include="FlattenMountains.cs" />
     <Compile Include="NodeRemover.cs" />
     <Compile Include="ProceduralStars.cs" />
     <Compile Include="SettingsLoader.cs" />

@@ -5,5 +5,15 @@
     {
         internal override string archive { get { return "PluginData/GalacticNeighborhood/KPlus_v1.1.zip"; } }
         internal override string path { get { return "GameData/KPlus/"; } }
+        internal override string[] filter
+        {
+            get
+            {
+                return new string[]
+                {
+                    path + "FlattenMountains.dll"
+                };
+            }
+        }
     }
 }
