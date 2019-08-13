@@ -6,7 +6,7 @@ namespace GNAutoInstallerPlugin
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     class AKR : Pack<AKR>
     {
-        internal override string archive { get { return "PluginData/GalacticNeighborhood/AlternisKerbolRekerjiggered2.3.0.4.zip"; } }
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/AlternisKerbolRekerjiggered2.5.0.zip"; } }
         internal override string path { get { return "GameData/AlternisKerbolRekerjiggered/"; } }
         internal override string[] filter
         {
@@ -24,8 +24,8 @@ namespace GNAutoInstallerPlugin
         {
             if (!Directory.Exists(path))
             {
-                Archive.UnZip(archive, "AlternisKerbolRekerjiggered/", path, filter);
-                Archive.UnZip(archive, "AlternisKerbolRekerjiggered/ModCompatibility/PlanetPackCompatibility/GalacticNeighborhood.cfg", path + "ModCompatibility/PlanetPackCompatibility/GalacticNeighborhood.cfg");
+                Archive.UnZip(archive, path, path, filter);
+                Archive.UnZip(archive, path + "ModCompatibility/PlanetPackCompatibility/GalacticNeighborhood.cfg", path + "ModCompatibility/PlanetPackCompatibility/GalacticNeighborhood.cfg");
             }
         }
     }
