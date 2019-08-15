@@ -6,7 +6,7 @@ namespace GNAutoInstallerPlugin
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     class GPP : Pack<GPP>
     {
-        internal override string archive { get { return "PluginData/GalacticNeighborhood/Galileos-Planet-Pack-1.6.0.1.zip"; } }
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/Galileos-Planet-Pack-1.6.3.1.zip"; } }
         internal override string path { get { return "GameData/GPP/"; } }
         internal override string[] filter
         {
@@ -23,15 +23,12 @@ namespace GNAutoInstallerPlugin
                     path + "GPP_Scatterer",
                     path + "GPP_Skybox",
                     path + "GPP_SuitProgression",
-                    path + "GPP_WaterLaunch",
-                    path + "GPP_Skybox",
                     path + "LoadingScreens",
-                    path + "GPP_KSPedia.ksp",
-                    path + "MiniAVC.dll"
+                    path + "GPP_KSPedia.ksp"
                 };
             }
         }
-        static string textures = "PluginData/GalacticNeighborhood/GPP_Textures-4.0.0.zip";
+        static string textures = "PluginData/GalacticNeighborhood/GPP_Textures-4.2.1.zip";
 
         internal override bool Check()
         {

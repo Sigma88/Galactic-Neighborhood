@@ -6,7 +6,7 @@ namespace GNAutoInstallerPlugin
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     class CTTP
     {
-        static string archive { get { return "PluginData/GalacticNeighborhood/CTTP.v1.0.1.zip"; } }
+        static string archive { get { return "PluginData/GalacticNeighborhood/CTTP.v1.0.4.zip"; } }
         static string path { get { return "GameData/CTTP/"; } }
 
         internal static bool Check()

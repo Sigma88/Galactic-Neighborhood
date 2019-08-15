@@ -6,7 +6,7 @@ namespace GNAutoInstallerPlugin
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     class OtherWorlds : Pack<OtherWorlds>
     {
-        internal override string archive { get { return "PluginData/GalacticNeighborhood/Other Worlds Reboot 0.2.zip"; } }
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/Other.Worlds.Reboot.0.5.zip"; } }
         internal override string path { get { return "GameData/OtherWorldsReboot/"; } }
         internal override string[] filter
         {
@@ -14,8 +14,11 @@ namespace GNAutoInstallerPlugin
             {
                 return new string[]
                 {
-                    "GameData/OtherWorldsReboot/OtherWorldsReboot/CercaniSystem/Clouds/",
-                    "GameData/OtherWorldsReboot/OtherWorldsReboot/CercaniSystem/Scatterer/"
+                    path + "CercaniSystem/Clouds/",
+                    path + "CercaniSystem/Scatterer/",
+                    path + "ConfigurationFiles",
+                    path + "LoadingScreens",
+                    path + "Parts"
                 };
             }
         }
@@ -31,7 +34,8 @@ namespace GNAutoInstallerPlugin
         {
             if (!Directory.Exists(path))
             {
-                Archive.UnZip(archive, "OtherWorldsReboot/", path);
+                Archive.UnZip(archive, path, path, filter);
+                Archive.UnZip(archive, path + "ConfigurationFiles/Localization", path + "ConfigurationFiles/Localization");
 
                 CTTP.Install();
             }

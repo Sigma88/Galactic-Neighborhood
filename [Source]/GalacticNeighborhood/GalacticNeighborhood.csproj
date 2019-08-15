@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AmbientLight.cs" />
+    <Compile Include="FlattenMountains.cs" />
     <Compile Include="NodeRemover.cs" />
     <Compile Include="ProceduralStars.cs" />
     <Compile Include="SettingsLoader.cs" />
@@ -48,10 +49,6 @@
     <Reference Include="Kopernicus, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\[References]\Kopernicus\Kopernicus.dll</HintPath>
-    </Reference>
-    <Reference Include="Kopernicus.Components, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\[References]\Kopernicus\Kopernicus.Components.dll</HintPath>
     </Reference>
     <Reference Include="Kopernicus.Parser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

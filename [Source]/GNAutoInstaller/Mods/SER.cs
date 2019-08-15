@@ -10,7 +10,6 @@ namespace GNAutoInstallerPlugin
 
         internal static bool Check()
         {
-            UnityEngine.Debug.Log("SigmaLog: SER.Check");
             if (File.Exists(SASS.Mod.archive))
             {
                 return File.Exists(archive) || Directory.Exists(path);

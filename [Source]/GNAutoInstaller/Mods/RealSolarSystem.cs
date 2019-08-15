@@ -6,7 +6,7 @@ namespace GNAutoInstallerPlugin
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     class RSS : Pack<RSS>
     {
-        internal override string archive { get { return "PluginData/GalacticNeighborhood/RealSolarSystem_v12.0.zip"; } }
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/RealSolarSystem_v16.2.zip"; } }
         internal override string path { get { return "GameData/RealSolarSystem/"; } }
         internal override string[] filter
         {
@@ -14,15 +14,16 @@ namespace GNAutoInstallerPlugin
             {
                 return new string[]
                 {
-                        "RealSolarSystem/Compatibility/",
-                        "RealSolarSystem/Plugins/",
-                        "RealSolarSystem/ResourceConfigs/",
-                        "RealSolarSystem/ContractModifier.cfg",
-                        "RealSolarSystem/DSN_Ranges.cfg",
-                        "RealSolarSystem/LaunchSites.cfg",
-                        "RealSolarSystem/PhysicsModifier.cfg",
-                        "RealSolarSystem/RemoteTech_Settings.cfg",
-                        "RealSolarSystem/ContractModifier.cfg",
+                    path + "Compatibility/",
+                    path + "Plugins/",
+                    path + "ResourceConfigs/",
+                    path + "ContractModifier.cfg",
+                    path + "DSN_Ranges.cfg",
+                    path + "LaunchSites.cfg",
+                    path + "PhysicsModifier.cfg",
+                    path + "RemoteTech_Settings.cfg",
+                    path + "RSS_TerrainDetailPresets.cfg",
+                    path + "ScienceDefs.cfg"
                 };
             }
         }
@@ -41,13 +42,11 @@ namespace GNAutoInstallerPlugin
         {
             if (!Directory.Exists(path))
             {
-                string[] filter = new string[]
-                {
-                };
-
-                Archive.UnZip(archive, "RealSolarSystem/", path, filter);
-                Archive.UnZip(archive, "RealSolarSystem/ResourceConfigs/Ore.cfg", path + "ResourceConfigs/Ore.cfg");
+                Archive.UnZip(archive, path, path, filter);
+                Archive.UnZip(archive, path + "ResourceConfigs/Ore.cfg", path + "ResourceConfigs/Ore.cfg");
             }
+
+            RSSTextures.Install();
         }
     }
 
@@ -62,6 +61,7 @@ namespace GNAutoInstallerPlugin
             {
                 if (!Directory.Exists(path))
                 {
+                    archive = "PluginData/GalacticNeighborhood/";
                     if (File.Exists(archive + "2048.zip"))
                         archive += "2048.zip";
                     else if (File.Exists(archive + "4096.zip"))
@@ -70,18 +70,16 @@ namespace GNAutoInstallerPlugin
                         archive += "8192.zip";
                     else return false;
                 }
-
                 return true;
             }
-
             return false;
         }
 
-        internal void Install()
+        internal static void Install()
         {
             if (!Directory.Exists(path))
             {
-                Archive.UnZip(archive, path, path);
+                Archive.UnZip(archive, "RSS-Textures/", path);
             }
         }
     }

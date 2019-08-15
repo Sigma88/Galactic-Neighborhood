@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
-using Kopernicus;
-using Kopernicus.Configuration;
+using Kopernicus.ConfigParser.Attributes;
+using Kopernicus.ConfigParser.BuiltinTypeParsers;
+using Kopernicus.ConfigParser.Enumerations;
+using Kopernicus.Configuration.Parsing;
 
 
 namespace GalacticNeighborhoodPlugin
@@ -10,10 +12,10 @@ namespace GalacticNeighborhoodPlugin
     [ParserTargetExternal("Body", "ScaledVersion", "Kopernicus")]
     public class SettingsLoader : BaseLoader
     {
-        [ParserTarget("Light", optional = true, allowMerge = true)]
+        [ParserTarget("Light", Optional = true, AllowMerge = true)]
         public ActiveFlareLoader activeFlareLoader;
 
-        [ParserTargetCollection("GNCoronae", nameSignificance = NameSignificance.Key, key = "Corona")]
+        [ParserTargetCollection("GNCoronae", NameSignificance = NameSignificance.Key, Key = "Corona")]
         public List<GNCorona> GNcoronae
         {
             set
@@ -30,7 +32,7 @@ namespace GalacticNeighborhoodPlugin
                             Material material = renderer.material;
 
                             if (value[i].mainTexture != null)
-                                material.mainTexture = value[i].mainTexture.value;
+                                material.mainTexture = value[i].mainTexture.Value;
                             if (value[i].mainTextureOffset != null)
                                 material.mainTextureOffset = value[i].mainTextureOffset;
                             if (value[i].mainTextureScale != null)
@@ -45,9 +47,9 @@ namespace GalacticNeighborhoodPlugin
                                 transform.localScale =
                                     new Vector3
                                     (
-                                        transform.localScale.x * value[i].localScaleMult.value.x,
-                                        transform.localScale.y * value[i].localScaleMult.value.y,
-                                        transform.localScale.z * value[i].localScaleMult.value.z
+                                        transform.localScale.x * value[i].localScaleMult.Value.x,
+                                        transform.localScale.y * value[i].localScaleMult.Value.y,
+                                        transform.localScale.z * value[i].localScaleMult.Value.z
                                     );
                         }
                     }
@@ -58,13 +60,13 @@ namespace GalacticNeighborhoodPlugin
 
     public class ActiveFlareLoader : BaseLoader
     {
-        [ParserTarget("activeSunFlare", optional = true)]
+        [ParserTarget("activeSunFlare", Optional = true)]
         public AssetParser<Flare> activeFlare
         {
             set
             {
-                if (value.value != null && !SunFlareSwitcher.activeFlares.ContainsKey(generatedBody.name))
-                    SunFlareSwitcher.activeFlares.Add(generatedBody.name, value.value);
+                if (value.Value != null && !SunFlareSwitcher.activeFlares.ContainsKey(generatedBody.name))
+                    SunFlareSwitcher.activeFlares.Add(generatedBody.name, value.Value);
             }
         }
     }
@@ -72,16 +74,16 @@ namespace GalacticNeighborhoodPlugin
     [RequireConfigType(ConfigType.Node)]
     public class GNCorona
     {
-        [ParserTarget("mainTexture", optional = true)]
+        [ParserTarget("mainTexture", Optional = true)]
         public Texture2DParser mainTexture = null;
 
-        [ParserTarget("mainTextureOffset", optional = true)]
+        [ParserTarget("mainTextureOffset", Optional = true)]
         public Vector2Parser mainTextureOffset = null;
 
-        [ParserTarget("mainTextureScale", optional = true)]
+        [ParserTarget("mainTextureScale", Optional = true)]
         public Vector2Parser mainTextureScale = null;
 
-        [ParserTarget("localScaleMult", optional = true)]
+        [ParserTarget("localScaleMult", Optional = true)]
         public Vector3Parser localScaleMult = new Vector3(1, 1, 1);
 
         public GNCorona()

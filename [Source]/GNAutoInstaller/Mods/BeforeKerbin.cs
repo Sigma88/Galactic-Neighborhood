@@ -6,7 +6,7 @@ namespace GNAutoInstallerPlugin
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     class BeforeKerbin : Pack<BeforeKerbin>
     {
-        internal override string archive { get { return "PluginData/GalacticNeighborhood/Before_Kerbin_Planet_Pack_-_2_Billion_Years_Ago-1.1a.zip"; } }
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/Before_Kerbin_Planet_Pack_-_2_Billion_Years_Ago-1.2.zip"; } }
         internal override string path { get { return "GameData/BeforeKerbin/"; } }
         internal override string[] filter
         {
@@ -31,12 +31,7 @@ namespace GNAutoInstallerPlugin
             {
                 Archive.UnZip(archive, path, path, filter);
 
-                string[] file = File.ReadAllLines(path + "Configs/Atlas.cfg");
-                file[0] = "@Kopernicus:FOR[BK]";
-                File.Delete(path + "Configs/Atlas.cfg");
-                File.WriteAllLines(path + "Configs/Atlas.cfg", file);
-
-                file = File.ReadAllLines(path + "Configs/Eden.cfg");
+                string[] file = File.ReadAllLines(path + "Configs/Eden.cfg");
                 file[0] = "@Kopernicus:FOR[BK]";
                 File.Delete(path + "Configs/Eden.cfg");
                 File.WriteAllLines(path + "Configs/Eden.cfg", file);
