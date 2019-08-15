@@ -6,7 +6,7 @@ namespace GNAutoInstallerPlugin
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     class RealAsteroids : Pack<RealAsteroids>
     {
-        internal override string archive { get { return "PluginData/GalacticNeighborhood/RealAsteroidsv1.1.zip"; } }
+        internal override string archive { get { return "PluginData/GalacticNeighborhood/RealAsteroidsv1.2.zip"; } }
         internal override string path { get { return "GameData/RealExpansion/"; } }
 
         internal override bool Check()
